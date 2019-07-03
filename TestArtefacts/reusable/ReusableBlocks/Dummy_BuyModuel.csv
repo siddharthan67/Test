@@ -1,0 +1,7 @@
+"","open","chrome","https://www.logitechg.com/en-us/products/gaming-mice/g502-lightspeed-wireless-gaming-mouse.html","",""
+"","waitForPageLoad","","20","",""
+"","","","","",""
+"","click","xpath=(//*[text()=""Add To Cart""])[2]","","",""
+"","sleep","","2000","",""
+"","click","xpath=(//*[text()=""Add To Cart""])[2]","","",""
+"","","","","",""
