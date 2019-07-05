@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-28T10:11:22.345Z"
+        cq:lastModifiedBy="mm2"
+        cq:lastReplicated="{Date}2019-03-05T19:19:26.710Z"
+        cq:lastReplicatedBy="bnedungadi"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/games/league-of-legends,gaming:esports/teams/rajesh1]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="techm_player2"
+        jcr:uuid="929b56fd-22ef-4adf-8c72-35c1d85be494"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        gameTags="[gaming:esports/games/league-of-legends]"
+        teamTags="[gaming:esports/teams/rajesh1]">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <player_information
+            jcr:lastModified="{Date}2019-02-28T10:11:22.075Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            name="Manjunath"
+            realname="Manju">
+            <playerImage
+                jcr:lastModified="{Date}2019-02-28T10:11:22.344Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/we-retail/en/products/apparel/shirts/Shirts_men.jpg"/>
+        </player_information>
+    </jcr:content>
+</jcr:root>

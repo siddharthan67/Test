@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-29T09:52:43.727Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:lastReplicated="{Date}2019-04-29T09:56:06.232Z"
+        cq:lastReplicatedBy="rchittati"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/teams/nrg,gaming:esports/games/hearthstone,gaming:esports/games/csgo,gaming:esports/games/league-of-legends]"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Teampage_variations"
+        jcr:uuid="1a907f40-9a6e-4a76-89e1-676ca6d0451e"
+        sling:resourceType="gaming/components/structure/pageteam"
+        gameTags="[gaming:esports/games/hearthstone,gaming:esports/games/league-of-legends,gaming:esports/games/csgo]"
+        tagForTeam="[gaming:esports/teams/nrg]"
+        teamLogoRef="/content/dam/gaming/en-us/team-logos/nrg.png"
+        teamName="NRG">
+        <team_info
+            jcr:lastModified="{Date}2019-04-26T06:06:46.008Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/team-info"
+            description="NRG eSports is a Brazilian multigaming organization."
+            title="NRG  eSports Club">
+            <achievements jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    description="Summer Champions"
+                    logo="/content/dam/gaming/en-us/team-logos/hwa.png"
+                    title="CBLOL 2016"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    description="Champions"
+                    logo="/content/dam/gaming/en/esports/team-bg/intz-bg.png"
+                    title="Brazil Mega Arena Rio 2016"/>
+            </achievements>
+            <socialLinks jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    faClass="facebook"
+                    link="https://www.facebook.com/INTZeSports"
+                    newTab="true"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    faClass="instagram"
+                    link="https://www.instagram.com/intzesports/"
+                    newTab="true"/>
+                <item2
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitter"
+                    link="https://twitter.com/intzesports"
+                    newTab="true"/>
+                <item3
+                    jcr:primaryType="nt:unstructured"
+                    faClass="youtube"
+                    link="https://www.youtube.com/user/INTZeSports"
+                    newTab="true"/>
+                <item4
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitch-no-status"
+                    link="https://www.twitch.tv/intzesports"
+                    newTab="true"/>
+                <item5
+                    jcr:primaryType="nt:unstructured"
+                    faClass="link"
+                    link="https://www.google.com"
+                    newTab="true"/>
+            </socialLinks>
+        </team_info>
+        <team_banner
+            jcr:lastModified="{Date}2019-04-15T12:28:48.627Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/team-banner"
+            altText="ALT TEXT">
+            <desktopBgImage
+                jcr:lastModified="{Date}2019-04-15T12:28:48.627Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:primaryType="nt:unstructured"/>
+            <mobileBgImage
+                jcr:lastModified="{Date}2019-04-15T12:28:48.627Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:primaryType="nt:unstructured"/>
+        </team_banner>
+    </jcr:content>
+</jcr:root>

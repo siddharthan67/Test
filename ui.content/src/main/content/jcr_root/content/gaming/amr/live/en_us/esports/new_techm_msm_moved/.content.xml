@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-04T14:21:03.947Z"
+        cq:lastModifiedBy="ssatheshkumar"
+        cq:lastReplicated="{Date}2019-03-27T07:18:08.097Z"
+        cq:lastReplicatedBy="mm2"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/teams/myinsanity,gaming:esports/games/battlefield,gaming:esports/games/starcraft]"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="new_techM"
+        jcr:uuid="495dc321-a5c3-4d4f-bee5-ee123f3ca617"
+        sling:resourceType="gaming/components/structure/pageteam"
+        gameTags="[gaming:esports/games/battlefield,gaming:esports/games/starcraft]"
+        tagForTeam="[gaming:esports/teams/myinsanity]"
+        teamLogoRef="/content/dam/gaming/en-us/team-logos/myinsanity.png"
+        teamName="Revenant">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

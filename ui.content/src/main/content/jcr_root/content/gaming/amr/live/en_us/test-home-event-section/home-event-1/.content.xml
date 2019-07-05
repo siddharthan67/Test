@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-22T06:46:19.958Z"
+        cq:lastModifiedBy="aa"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.846-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Gamescom"
+        sling:resourceType="gaming/components/structure/eventPage"
+        hideInNav="true"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2019-02-22T06:31:07.777Z"
+            jcr:lastModifiedBy="aa"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event">
+            <image
+                jcr:lastModified="{Date}2019-02-22T06:31:07.777Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/events/events-gamescom.png"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-22T06:31:07.777Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Explore Gaming"
+                    ctastyle="cta-forward"
+                    openNewTab="false"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2019-02-22T06:46:19.655Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-22T06:46:19.957Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

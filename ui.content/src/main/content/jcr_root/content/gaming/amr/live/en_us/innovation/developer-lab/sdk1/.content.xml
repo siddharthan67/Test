@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-01-17T06:26:17.346Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-02-15T09:36:10.137Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="sdk1"
+        jcr:uuid="783d4968-f87d-4019-afac-2f5cb94e57e4"
+        sling:resourceType="gaming/components/structure/eventPage"
+        offTime="{Date}2018-08-01T16:04:00.000-07:00">
+        <event
+            jcr:lastModified="{Date}2019-01-17T06:26:17.225Z"
+            jcr:lastModifiedBy="achase1"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Get access to all of the LED backlighting and RGB capabilities of Logitech G products, including implementation in &lt;a href=&quot;/content/gaming/amr/live/en_us/innovation/g-hub.html&quot;>Logitech G HUB Early Access&lt;/a>. Integrate profiles for custom key configurations, develop in-game effects, or mark keys to keep track of cooldowns on various commands"
+            text="&lt;ul>&#xa;&lt;li>&lt;p>Added missing G-keys, logos, and LOGI_DEVICETYPE_ALL declarations to &lt;g class=&quot;gr_ gr_10 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep&quot; data-gr-id=&quot;10&quot;>C#&lt;/g> portion of LED SDK.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Added missing G-keys and logos declarations to Java portion of LED SDK.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Added a full bitmap mapping for the US layout in the documentation.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&lt;p>Added SetLightingForTargetZone function to allow for individual zone lighting.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;"
+            textIsRich="true"
+            title="LED ILLUMINATION SDK">
+            <image
+                jcr:lastModified="{Date}2019-01-17T06:26:17.257Z"
+                jcr:lastModifiedBy="achase1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <logo
+                jcr:lastModified="{Date}2019-01-17T06:26:17.279Z"
+                jcr:lastModifiedBy="achase1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Download for Windows"
+                    ctalink="http://gaming.logitech.com/sdk/LED_9.00.zip"
+                    ctastyle="btn-large ghost"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2018-08-12T14:22:27.354-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-08-12T14:22:27.354-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

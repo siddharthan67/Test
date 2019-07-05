@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2018-09-28T05:43:42.163-04:00"
+        cq:lastModifiedBy="vdonaboina"
+        cq:lastReplicated="{Date}2019-02-15T09:36:28.032Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:36.289-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="The Best Gaming Headsets for Xbox One"
+        jcr:uuid="94ba3f0c-6b6c-4812-9ecd-f1967e73d5fb"
+        sling:resourceType="gaming/components/structure/eventPage">
+        <event
+            jcr:lastModified="{Date}2018-09-28T05:43:42.190-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Tucker Bowe of Gear Patrol included the Logitech G PRO Gaming Headset and the Logitech G433 7.1 Gaming Headset in his list of “The Best Gaming Headsets for Xbox One, PlayStation 4 and Nintendo Switch.” He shared that Logitech G &quot;designed the headset with some of the best-known esports teams (such as G2 Esports and London Spitfire) on the G PRO headset, so it has some premium gaming features, like a tournament-grade mic and the company’s Pro-G drivers.&quot; "
+            startDate="{Date}2018-04-02T00:00:00.000-04:00"
+            title="Gear Patrol - The Best Gaming Headsets for Xbox One, PlayStation 4 and Nintendo Switch">
+            <image
+                jcr:lastModified="{Date}2018-09-28T05:43:42.351-04:00"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/press-release/press-release-the-best-gaming-headsets.png"/>
+            <logo
+                jcr:lastModified="{Date}2018-09-28T05:43:42.494-04:00"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:lastModified="{Date}2018-09-28T05:43:42.685-04:00"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:lastModified="{Date}2018-09-28T05:43:42.806-04:00"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Learn More"
+                    ctalink="https://gearpatrol.com/2018/04/02/best-gaming-headsets/"
+                    ctastyle="btn-large"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2018-09-28T05:43:42.906-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-09-28T05:43:43.002-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-15T10:51:33.385Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-02-26T10:45:39.286Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test Events"
+        jcr:uuid="0c82a5f2-e6ba-407f-8735-f7493e007458"
+        sling:resourceType="gaming/components/structure/eventPage">
+        <event
+            jcr:lastModified="{Date}2019-02-15T10:51:32.728Z"
+            jcr:lastModifiedBy="nedara"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="GamePanel introduces second screen capability that allows GamePanel-enabled Logitech gaming keyboards to display in-game info, system statistics, and more. The SDK enables integration of GamePanel functionality within your code."
+            endDate="{Date}2019-01-17T16:00:00.000+05:30"
+            startDate="{Date}2019-01-08T16:00:00.000+05:30"
+            title="GAMEPANEL SDK">
+            <image
+                jcr:lastModified="{Date}2019-02-15T10:51:33.033Z"
+                jcr:lastModifiedBy="nedara"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/logi-gaming/en/banners/banner-12.jpg"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-15T10:51:33.119Z"
+                jcr:lastModifiedBy="nedara"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Find Out More"
+                    ctalink="https://www.logitechg.com/en-us/innovation/developer-lab.html"
+                    ctastyle="btn"
+                    openNewTab="true"/>
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Test CTA 2"
+                    ctalink="https://www.logitechg.com/en-us/innovation/developer-lab.html"
+                    ctastyle="btn"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+    </jcr:content>
+</jcr:root>

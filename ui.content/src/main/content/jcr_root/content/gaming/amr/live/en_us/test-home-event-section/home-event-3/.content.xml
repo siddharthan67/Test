@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-22T06:26:53.265Z"
+        cq:lastModifiedBy="aa"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.854-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Brazil Gameshow"
+        sling:resourceType="gaming/components/structure/eventPage"
+        hideInNav="true"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2019-02-22T06:26:52.298Z"
+            jcr:lastModifiedBy="aa"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Head to South America in October to meet the creators and play the games. We'll see you there"
+            endDate="{Date}2018-10-14T09:30:00.000+05:30"
+            location="Sao Paulo, Brazil"
+            startDate="{Date}2018-10-10T09:30:00.000+05:30"
+            title="Brazil Gameshow">
+            <image
+                jcr:lastModified="{Date}2019-02-22T06:26:52.555Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/astrogaming/banner/bg04.jpg"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-22T06:26:52.864Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/ue/awards-logos/the-verge-logo-dark.png"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="FIND OUT MORE"
+                    ctalink="http://www.brasilgameshow.com.br/"
+                    ctastyle="cta-forward"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2019-02-22T06:23:55.485Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-22T06:23:55.779Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

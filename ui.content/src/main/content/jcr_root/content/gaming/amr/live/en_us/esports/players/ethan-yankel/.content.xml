@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-15T10:49:22.716Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-03-05T19:19:26.710Z"
+        cq:lastReplicatedBy="bnedungadi"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/teams/nrg,gaming:esports/games/overwatch]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:32.967-04:00"
+        jcr:lastModifiedBy="rsolaiappa"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Ethan Yankel"
+        jcr:uuid="d724ade5-d437-438a-9ca1-573ed01b063b"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        gameTags="[gaming:esports/games/overwatch,gaming:by-game-title/battlefieldv]"
+        navigationTheme="theme-dark"
+        teamTags="[gaming:esports/teams/nrg]">
+        <player_information
+            jcr:lastModified="{Date}2019-02-15T10:49:21.201Z"
+            jcr:lastModifiedBy="scheng6"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            country="us"
+            name="Stratus"
+            playerstatus="Active"
+            realname="Ethan Yankel"
+            role="DPS"
+            userstatus="stratuseclipse">
+            <playerImage
+                jcr:lastModified="{Date}2019-02-15T10:49:21.370Z"
+                jcr:lastModifiedBy="scheng6"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/esports/players/ethan-yankel.png"/>
+            <player_details
+                jcr:lastModified="{Date}2019-02-15T10:49:21.429Z"
+                jcr:lastModifiedBy="scheng6"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details"
+                playerBannerDesc="Stratus'S GEAR, CONFIGURATIONS, &amp; HOTKEYS">
+                <image
+                    jcr:lastModified="{Date}2019-02-15T10:49:21.572Z"
+                    jcr:lastModifiedBy="scheng6"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <products
+                    jcr:lastModified="{Date}2019-02-15T10:49:21.632Z"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured">
+                    <item1
+                        jcr:lastModified="{Date}2019-02-15T10:49:21.798Z"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabelOne="DOWNLOAD RGB PROFILE"
+                        ctaStyleOne="btn-download"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-mice/pro-gaming-mouse"/>
+                    <item2
+                        jcr:lastModified="{Date}2019-02-15T10:49:21.976Z"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabelOne="DOWNLOAD HOTKEYS"
+                        ctaLabelTwo="DOWNLOAD RGB PROFILE"
+                        ctaStyleOne="btn-download"
+                        ctaStyleTwo="btn-download"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-keyboards/pro-gaming-keyboard"/>
+                    <item3
+                        jcr:lastModified="{Date}2019-02-15T10:49:22.156Z"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabelOne="DOWNLOAD HOT KEYS"
+                        ctaLabelTwo="DOWNLOAD HOT KEYS"
+                        ctaStyleOne="btn-download"
+                        ctaStyleTwo="btn-download"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-audio/pro-gaming-headset"/>
+                </products>
+            </player_details>
+            <socialLinks
+                jcr:lastModified="{Date}2019-02-15T10:49:22.283Z"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:lastModified="{Date}2019-02-15T10:49:22.404Z"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitter"
+                    link="https://twitter.com/StratusEclipse"
+                    newTab="true"/>
+            </socialLinks>
+        </player_information>
+        <image
+            jcr:lastModified="{Date}2019-02-15T10:49:22.597Z"
+            jcr:lastModifiedBy="rsolaiappa"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-15T10:49:22.715Z"
+            jcr:lastModifiedBy="rsolaiappa"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

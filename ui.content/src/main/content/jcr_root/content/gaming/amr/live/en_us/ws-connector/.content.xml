@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-11T17:47:49.747Z"
+        cq:lastModifiedBy="bnedungadi"
+        cq:lastRolledout="{Date}2019-04-11T17:47:50.991Z"
+        cq:lastRolledoutBy="bnedungadi"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WS Connector"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            cq:lastRolledout="{Date}2019-04-11T17:47:48.616Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            cq:lastRolledout="{Date}2019-04-11T17:47:49.728Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            cq:lastRolledout="{Date}2019-04-11T17:47:50.991Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+    </jcr:content>
+    <single-lang/>
+</jcr:root>

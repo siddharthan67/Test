@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-02T11:45:37.448Z"
+        cq:lastModifiedBy="vsankarlal"
+        cq:lastReplicated="{Date}2019-04-12T10:45:05.270Z"
+        cq:lastReplicatedBy="vsankarlal"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2019-04-02T11:45:37.451Z"
+        cq:lastRolledoutBy="vsankarlal"
+        cq:template="/apps/gaming/templates/page-content-sticky-left-column"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Downloads"
+        jcr:uuid="f2dc2cb0-6c33-4803-b883-539cfc49af9a"
+        sling:resourceType="gaming/components/structure/pageStickyLeftColumn"/>
+</jcr:root>

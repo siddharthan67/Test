@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-12T12:54:57.611Z"
+        cq:lastModifiedBy="rchittati"
+        cq:lastReplicated="{Date}2019-04-05T11:52:20.207Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:product-catalog/metadata/type/gaming,gaming:product-catalog/variant-axes/color/carbon,gaming:category/gaming-keyboards,gaming:product-catalog/variant-axes/color/silver,gaming:product-catalog/metadata/type/consumer,gaming:series/pro,gaming:Features/auto-muting-microphone-boom,gaming:specifications/maximum-usb-report-rate]"
+        cq:template="/apps/gaming/templates/product-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2016-10-11T15:48:08.794-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:lockIsDeep="{Boolean}true"
+        jcr:lockOwner="rchittati"
+        jcr:mixinTypes="[mix:lockable,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="G413"
+        jcr:uuid="ee00c85b-d3cf-4e3c-bdeb-822988aaf934"
+        sling:resourceType="gaming/components/structure/productDisplayPage"
+        features="[gaming:Features/auto-muting-microphone-boom]"
+        logi.masterPage="/content/gaming/amr/live/en_us/catalog/gaming-keyboards/g413-mechanical-gaming-keyboard"
+        navigationTheme="theme-dark"
+        pageTheme="theme-standard"
+        seriesTag="[gaming:series/pro]">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <product_banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-banner"
+                bgAlignment="center"
+                bgMobAlignment=""
+                bgTabAlignment=""
+                bgTheme="kohle"
+                billboardOffX="50%"
+                billboardOffY="0%"
+                billboardScale="100"
+                copyPosition="left"
+                copyPositionY="0px"
+                imgOffX="0px"
+                imgOffXMob="0px"
+                imgOffXTab="0px"
+                imgOffY="95px"
+                imgOffYMob="95px"
+                imgOffYTab="95px"
+                imgWidth="10"
+                prodImgAlignment="center"/>
+            <product_bundle_offers
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-bundle-offers"/>
+            <tech_specifications
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/tech-specification">
+                <product_par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/tech-specification/parsys">
+                    <product_information
+                        jcr:lastModified="{Date}2019-04-11T12:15:15.869Z"
+                        jcr:lastModifiedBy="rchittati"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-information"
+                        infotitle="SPECIFICATIONS">
+                        <subproduct_par
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <list_information
+                                jcr:created="{Date}2019-04-11T12:11:28.277Z"
+                                jcr:createdBy="rchittati"
+                                jcr:lastModified="{Date}2019-04-11T12:20:37.631Z"
+                                jcr:lastModifiedBy="rchittati"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="true"
+                                displayWarrantyInformation="false"
+                                featuretitle="PACKAGE CONTENTS"
+                                subfeaturetitle="Gaming keyboard">
+                                <features jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Gaming keycaps">
+                                        <bulletList jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="Keycap puller"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="User documentation"/>
+                                            <item2 jcr:primaryType="nt:unstructured"/>
+                                        </bulletList>
+                                    </item0>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        text="SYSTEM REQUIREMENTS">
+                                        <bulletList jcr:primaryType="nt:unstructured">
+                                            <item0
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="Windows® 10, Windows 8.1, Windows 8, Windows 7"/>
+                                            <item1
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="USB port (for keyboard)"/>
+                                            <item2
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="Second USB port (for USB passthrough port)"/>
+                                            <item3
+                                                jcr:primaryType="nt:unstructured"
+                                                subtext="(Optional) Internet access for Logitech Gaming Software"/>
+                                        </bulletList>
+                                    </item1>
+                                    <item2 jcr:primaryType="nt:unstructured"/>
+                                </features>
+                            </list_information>
+                        </subproduct_par>
+                        <keyfeatures jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="1.5mm"
+                                featurevalue="ACTUATION DISTANCE"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="6ft."
+                                featurevalue="CABLE"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="1105g"
+                                featurevalue="TOTAL WEIGHT"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="USB"
+                                featurevalue="PASSTHROUGH"/>
+                        </keyfeatures>
+                    </product_information>
+                </product_par>
+            </tech_specifications>
+            <buy_module
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/buy-module"/>
+            <recommended_for_you
+                jcr:lastModified="{Date}2019-04-12T12:54:57.608Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="recommended_for_you"
+                product1Path="/content/gaming/amr/live/en_us/products/gaming-audio/g935-wireless-7-1-surround-sound-lightsync-gaming-headset"
+                product2Path="/content/gaming/amr/live/en_us/products/gamepads/extreme-3d-pro-joystick"
+                title="Test-01"/>
+            <you_might_also_like
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="you_might_also_like"/>
+        </par>
+        <specifications jcr:primaryType="nt:unstructured">
+            <item0
+                jcr:primaryType="nt:unstructured"
+                specificationTag="gaming:specifications/maximum-usb-report-rate"/>
+        </specifications>
+    </jcr:content>
+</jcr:root>

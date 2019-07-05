@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-05-10T08:19:15.049Z"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-02-15T09:36:30.449Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:36.307-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Best gaming keyboard 2018"
+        jcr:uuid="1ef1320e-44f7-4b18-acf5-596eaf968fa4"
+        sling:resourceType="gaming/components/structure/eventPage">
+        <event
+            jcr:lastModified="{Date}2019-05-10T08:19:15.047Z"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Kane Fulton of TechRadar featured the Logitech G513 Mechanical Gaming Keyboard in his list of the “Best Gaming Keyboard 2018: The Best Gaming Keyboards We've Tested.” He shared, “one of our biggest pet peeves with Cherry MX Red keys is that while they’re good for gaming, they’re not great for typing anything but your Steam credentials. And, that’s where the Logitech G513 and its Romer-G Linear switches outshine the rest of the competition. Add in the brushed metal finish that, miraculously, is all but immune to fingerprints, and you have a recipe for one of the best gaming keyboards you can buy today.” "
+            startDate="{Date}2018-07-03T09:30:00.000+05:30"
+            title="TechRadar - Best gaming keyboard 2018: the best gaming keyboards we've tested"
+            videoId="aHKqhRjRkbE">
+            <image
+                jcr:lastModified="{Date}2019-05-10T08:19:15.047Z"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/jbs-authoring/banner/banner-bg-01-desktop.jpg"/>
+            <logo
+                jcr:lastModified="{Date}2019-05-10T08:19:15.047Z"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Learn More"
+                    ctalink="https://www.techradar.com/news/gaming/10-best-gaming-keyboards-1295703"
+                    ctastyle="btn-large"
+                    openNewTab="false"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2018-09-28T05:43:48.175-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-09-28T05:43:48.225-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

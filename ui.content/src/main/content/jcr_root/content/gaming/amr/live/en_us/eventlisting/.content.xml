@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-20T14:20:52.105Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:lastReplicated="{Date}2019-06-20T15:00:41.671Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Eventlisting"
+        jcr:uuid="020673ab-0573-40e9-a5c9-da43f9282e9a"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <event_listing
+                jcr:created="{Date}2019-06-20T13:47:20.478Z"
+                jcr:createdBy="sveluswamy"
+                jcr:lastModified="{Date}2019-06-20T14:20:52.102Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/event-listing"
+                openNewTab="true"
+                showAllCards="true"
+                title="TEST TITLE"
+                typeOfEvent="event">
+                <rootPath jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        resourcePath="/content/gaming/amr/live/en_us/events"/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        resourcePath="/content/gaming/amr/live/en_us/event2"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        resourcePath="/content/gaming/amr/live/en_us/event3"/>
+                </rootPath>
+            </event_listing>
+        </par>
+    </jcr:content>
+</jcr:root>

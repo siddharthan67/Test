@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-10T09:57:39.040Z"
+        cq:lastModifiedBy="schaitanya"
+        cq:lastReplicated="{Date}2019-04-10T10:04:44.285Z"
+        cq:lastReplicatedBy="schaitanya"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/teams/rajesh1]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="techm_player3"
+        jcr:uuid="5b0b2255-dde0-4aca-8498-6bf16b0b04a7"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        teamTags="[gaming:esports/teams/rajesh1]">
+        <player_information
+            jcr:lastModified="{Date}2019-02-26T15:39:00.923Z"
+            jcr:lastModifiedBy="mm2"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            bestmoments="Winning a major (DH Winter 2014) as a player and winning ECS Season 1 (2016) as a captain"
+            country="india"
+            dob="{Date}1993-08-06T00:00:00.000+05:30"
+            funfact=" My nickname comes from my shoes when I was 13"
+            name="SHOX"
+            realname="RICHARD PAPILLON"
+            role="Player">
+            <playerImage
+                jcr:lastModified="{Date}2019-02-26T15:39:01.233Z"
+                jcr:lastModifiedBy="mm2"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/esports/players/richard-papillon.png"/>
+            <shorttermattributes
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    key="SIGNATURE"
+                    value="shox"/>
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    key="FAVORITE GAME"
+                    value="Counter-Strike"/>
+            </shorttermattributes>
+            <longtermattributes
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    key="HOW DID YOU GET INTO GAMING"
+                    value="My big brother bought CS and since I watched him play, i tried and directly fall in love with the game"/>
+            </longtermattributes>
+            <socialLinks
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    faClass="instagram"
+                    link="https://www.instagram.com/G2shox/"
+                    newTab="true"/>
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitter"
+                    link="https://twitter.com/G2shox"
+                    newTab="true"/>
+            </socialLinks>
+            <player_details jcr:primaryType="nt:unstructured">
+                <feature_video
+                    jcr:lastModified="{Date}2019-04-10T09:57:39.038Z"
+                    jcr:lastModifiedBy="schaitanya"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/feature-video">
+                    <videos jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            videoDescription="Testing for video in dispatcher"
+                            videoHost="youtube"
+                            videoId="HPY7l0N4jIA"
+                            videoMode="inline"
+                            videoPlayButtonPosition="center"
+                            videoTitle="Youtube Video"/>
+                    </videos>
+                </feature_video>
+            </player_details>
+        </player_information>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="sling:OrderedFolder">
+    <rep:policy/>
+    <dam/>
+    <experience-fragments/>
+    <cq:tags/>
+    <projects/>
+    <usergenerated/>
+    <screens/>
+    <catalogs/>
+    <launches/>
+    <campaigns/>
+    <communities/>
+    <sites/>
+    <forms/>
+    <community/>
+    <community-components/>
+    <we-retail/>
+    <robots/>
+    <gaming-components/>
+    <gaming-components-guide/>
+    <gaming/>
+    <qaplayground/>
+    <ue-com/>
+    <jaybird-components/>
+    <migrator/>
+    <jaybird-com/>
+    <logitech-com/>
+    <logitech-components/>
+    <jaybird-web-components/>
+    <jaybird-web-components-guide/>
+    <versionhistory/>
+    <astro/>
+    <jaybird-web_backup/>
+    <jaybird-web-backup-20190530/>
+    <jaybird-web/>
+    <products1/>
+    <products/>
+</jcr:root>

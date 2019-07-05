@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-13T12:44:35.929Z"
+        cq:lastModifiedBy="kravi"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test 3"
+        sling:resourceType="gaming/components/structure/eventPage">
+        <event
+            jcr:lastModified="{Date}2019-05-13T12:44:35.927Z"
+            jcr:lastModifiedBy="kravi"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            endDate="{Date}2019-05-12T18:13:00.000+05:30"
+            startDate="{Date}2019-05-01T18:13:00.000+05:30"
+            title="Test Title"
+            videoId="URQw8wswRLo">
+            <image
+                jcr:lastModified="{Date}2019-05-13T12:44:35.927Z"
+                jcr:lastModifiedBy="kravi"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/logi-gaming/en/news-events/C920-lights-1-300x188.jpg"/>
+            <logo
+                jcr:lastModified="{Date}2019-05-13T12:44:35.927Z"
+                jcr:lastModifiedBy="kravi"
+                jcr:primaryType="nt:unstructured"/>
+        </event>
+    </jcr:content>
+</jcr:root>

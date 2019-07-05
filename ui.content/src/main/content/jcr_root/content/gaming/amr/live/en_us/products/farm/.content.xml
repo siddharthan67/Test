@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2019-04-03T06:57:54.425Z"
+        cq:lastModifiedBy="schaitanya"
+        cq:lastReplicated="{Date}2019-06-18T09:07:51.514Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/catalog-section-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Farm"
+        jcr:uuid="c0904535-c54c-481e-9824-e7584afff05d"
+        sling:resourceType="gaming/components/structure/catalogSectionDisplayPage"
+        robotsOptions="default">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/banner"/>
+            <product_list
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-list"
+                minPriceRange="0"/>
+        </par>
+    </jcr:content>
+    <tets-2ab/>
+    <test-2ac/>
+    <farm-simulator-game-bundle/>
+    <test-2aa/>
+    <test-2af/>
+    <test-2ag/>
+    <farm-simulator-side-panel/>
+    <tets-2aj/>
+    <test-2ak/>
+    <test-2al/>
+    <test-5d/>
+    <test-2an/>
+    <test-1/>
+    <test-2/>
+</jcr:root>

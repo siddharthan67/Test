@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-15T10:50:00.908Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-05-28T10:24:41.144Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="404"
+        jcr:uuid="12b28214-c4f6-415c-b7a2-ef5d4d77f99f"
+        sling:resourceType="gaming/components/structure/page"
+        navigationTheme="theme-dark">
+        <logo
+            jcr:lastModified="{Date}2019-02-15T10:50:00.028Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:lastModified="{Date}2019-02-15T10:50:00.151Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:lastModified="{Date}2019-02-15T10:50:00.299Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:lastModified="{Date}2019-02-15T10:50:00.418Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <error
+                jcr:created="{Date}2018-05-02T22:51:49.256-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-02-15T10:50:00.569Z"
+                jcr:lastModifiedBy="cgeetha"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/error"
+                errorCode="404"
+                errorMessage="Page Not Found"
+                text="&lt;p>This is not the page you're looking for. But unfortunately, that Logitech Gaming product or page is not available in your location. (You may even have a bad link.) Go ahead and keep browsing the gaming area for the latest products, support, company information and more.&lt;br>&#xa;&lt;/p>&#xa;"
+                textIsRich="true">
+                <errorImage
+                    jcr:lastModified="{Date}2019-02-15T10:50:00.702Z"
+                    jcr:lastModifiedBy="cgeetha"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/gaming/en/404.svg"/>
+                <cta
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        ctalabel="Go to HomePage"
+                        ctalink="/content/gaming/amr/live/en_us"
+                        ctastyle="btn-large"
+                        openNewTab="true"/>
+                </cta>
+            </error>
+        </par>
+    </jcr:content>
+</jcr:root>

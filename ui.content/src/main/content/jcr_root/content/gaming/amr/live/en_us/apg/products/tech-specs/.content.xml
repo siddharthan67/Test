@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isManuallyCreated="{Boolean}true"
+        cq:lastModified="{Date}2019-02-18T06:03:18.000Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tech Specs"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            cq:isManuallyCreated="{Boolean}true"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            cq:isManuallyCreated="{Boolean}true"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            cq:isManuallyCreated="{Boolean}true"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            cq:isManuallyCreated="{Boolean}true"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <tech_specification
+                cq:isManuallyCreated="{Boolean}true"
+                jcr:created="{Date}2019-02-07T13:22:13.227Z"
+                jcr:createdBy="rchittati"
+                jcr:lastModified="{Date}2019-02-18T06:03:16.442Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/tech-specification">
+                <product_par
+                    cq:isManuallyCreated="{Boolean}true"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/tech-specification/parsys">
+                    <product_information
+                        cq:isManuallyCreated="{Boolean}true"
+                        jcr:created="{Date}2019-02-07T13:24:49.132Z"
+                        jcr:createdBy="rchittati"
+                        jcr:lastModified="{Date}2019-02-18T06:03:16.799Z"
+                        jcr:lastModifiedBy="rchittati"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-information"
+                        infotitle="SPECIFICATIONS">
+                        <subproduct_par
+                            cq:isManuallyCreated="{Boolean}true"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <list_information
+                                cq:isManuallyCreated="{Boolean}true"
+                                jcr:created="{Date}2019-02-07T13:28:46.606Z"
+                                jcr:createdBy="rchittati"
+                                jcr:lastModified="{Date}2019-02-18T06:03:17.113Z"
+                                jcr:lastModifiedBy="rchittati"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="PACKAGE CONTENTS">
+                                <features
+                                    cq:isManuallyCreated="{Boolean}true"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        cq:isManuallyCreated="{Boolean}true"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Yoke with 1.8m USB Connector Cable"/>
+                                    <item1
+                                        cq:isManuallyCreated="{Boolean}true"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Throttle Quadrant with 1.5m PS/2 Connector Cable"/>
+                                    <item2
+                                        cq:isManuallyCreated="{Boolean}true"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="2 Desk Clamps"/>
+                                </features>
+                            </list_information>
+                        </subproduct_par>
+                        <keyfeatures
+                            cq:isManuallyCreated="{Boolean}true"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item0
+                                cq:isManuallyCreated="{Boolean}true"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Steel Shaft"
+                                featurevalue="Precision Bearing Yoke"/>
+                            <item1
+                                cq:isManuallyCreated="{Boolean}true"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="3 Modes"
+                                featurevalue="75 Programmable Controls"/>
+                            <item2
+                                cq:isManuallyCreated="{Boolean}true"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Configurable"
+                                featurevalue="Throttle Knobs"/>
+                        </keyfeatures>
+                    </product_information>
+                </product_par>
+            </tech_specification>
+        </par>
+    </jcr:content>
+</jcr:root>

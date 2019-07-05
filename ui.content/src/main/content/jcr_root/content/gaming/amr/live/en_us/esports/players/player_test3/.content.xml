@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-23T11:24:55.328Z"
+        cq:lastModifiedBy="mm2"
+        cq:lastReplicated="{Date}2019-04-23T11:25:03.715Z"
+        cq:lastReplicatedBy="mm2"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/games/battlefield,gaming:esports/teams/myinsanity]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="player_test3"
+        jcr:uuid="a51fbb90-1b0d-4288-b9e0-27583139fabb"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        gameTags="[gaming:esports/games/battlefield]"
+        teamTags="[gaming:esports/teams/myinsanity]">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <player_information
+            jcr:lastModified="{Date}2019-04-23T11:23:19.568Z"
+            jcr:lastModifiedBy="mm2"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            bestmoments="Winning a major (DH Winter 2014) as a player and winning ECS Season 1 (2016) as a captain"
+            country="america"
+            dob="{Date}1995-07-07T00:00:00.000+05:30"
+            funfact="My nickname comes from my shoes when I was 1322"
+            name="SHOX"
+            realname="RICHARD PAPILLON"
+            role="Player">
+            <playerImage
+                jcr:lastModified="{Date}2019-04-23T11:23:19.568Z"
+                jcr:lastModifiedBy="mm2"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/esports/players/richard-papillon.png"/>
+            <player_details
+                jcr:lastModified="{Date}2019-04-23T11:24:55.304Z"
+                jcr:lastModifiedBy="mm2"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details"
+                playerBannerDesc="Test Description">
+                <feature_video
+                    jcr:lastModified="{Date}2019-04-10T10:03:46.273Z"
+                    jcr:lastModifiedBy="schaitanya"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/feature-video">
+                    <videos jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            videoDescription="Description"
+                            videoHost="youtube"
+                            videoId="HPY7l0N4jIA"
+                            videoMode="inline"
+                            videoPlayButtonPosition="center"
+                            videoTitle="Youtube Video"/>
+                    </videos>
+                </feature_video>
+                <image
+                    jcr:lastModified="{Date}2019-04-23T11:24:55.304Z"
+                    jcr:lastModifiedBy="mm2"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/jbs-authoring/banner/banner-bg-01-desktop.jpg"/>
+            </player_details>
+            <shorttermattributes jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    key="SIGNATURE"
+                    value="shox"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    key="FAVORITE GAME"
+                    value="Counter-Strike"/>
+            </shorttermattributes>
+            <longtermattributes jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    key="HOW DID YOU GET INTO GAMING"
+                    value="My big brother bought CS and since I watched him play, i tried and directly fall in love with the game&#xd;&#xa;"/>
+            </longtermattributes>
+            <socialLinks jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitter"
+                    link="https://twitter.com/G2shox"
+                    newTab="true"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    faClass="instagram"
+                    link="https://www.instagram.com/G2shox/"
+                    newTab="true"/>
+            </socialLinks>
+        </player_information>
+    </jcr:content>
+</jcr:root>

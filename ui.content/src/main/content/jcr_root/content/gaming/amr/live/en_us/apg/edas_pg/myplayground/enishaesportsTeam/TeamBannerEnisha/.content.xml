@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-25T21:10:27.194Z"
+        cq:lastModifiedBy="edas"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Team Banner Enisha"
+        sling:resourceType="gaming/components/structure/pageteam">
+        <team_banner
+            jcr:lastModified="{Date}2019-02-25T21:10:26.424Z"
+            jcr:lastModifiedBy="edas"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/team-banner">
+            <desktopBgImage
+                jcr:lastModified="{Date}2019-02-25T21:10:26.819Z"
+                jcr:lastModifiedBy="edas"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/jbs-authoring/banner/banner-bg-01-desktop.jpg"/>
+            <mobileBgImage
+                jcr:lastModified="{Date}2019-02-25T21:10:27.193Z"
+                jcr:lastModifiedBy="edas"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+        </team_banner>
+    </jcr:content>
+</jcr:root>

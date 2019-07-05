@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-18T06:02:00.176Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:tags="[gaming:platform/pc,gaming:category/flight]"
+        cq:template="/apps/gaming/templates/product-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-07-24T06:41:54.523-04:00"
+        jcr:lastModifiedBy="rakiyoshi"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Flight-Yoke-System"
+        jcr:uuid="790372f6-9bb0-4c86-a4c5-5b5acb5c8b25"
+        sling:resourceType="gaming/components/structure/productDisplayPage"
+        features="[gaming:platform/pc]"
+        logi.masterPage="/content/gaming/amr/live/en_us/catalog/flight/flight-simulator-yoke-system"
+        navigationTheme="theme-dark"
+        pageTitle="Flight-Yoke-System"
+        searchTitle="Logitech G Flight Simulator Yoke System with Throttle Quadrant"
+        seoDescription="Logitech G Flight yoke system delivers an unmatched cockpit experience with five total axes, stainless steel elevator and aileron control shaft."
+        seoPageTitle="Logitech G Flight Simulator Yoke System with Throttle Quadrant">
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <product_banner
+                jcr:lastModified="{Date}2019-02-18T06:01:48.402Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-banner"
+                bgAlignment="center"
+                bgMobAlignment="bottom"
+                bgTabAlignment="inherit"
+                bgTheme="kohle"
+                billboardOffX="50"
+                billboardOffY="-17"
+                billboardScale="1"
+                copyPosition="left"
+                copyPositionY="-86"
+                imgOffX="86"
+                imgOffXMob="0"
+                imgOffXTab="0"
+                imgOffY="86"
+                imgOffYMob="95"
+                imgOffYTab="95"
+                imgWidth="10"
+                openNewTab="true"
+                openNewTabtwo="true"
+                prodImgAlignment="left"
+                productAuthoredPath="/content/gaming/amr/live/en_us/apg/products/flight/flight-simulator-yoke-system"
+                productDesc="Speed"
+                productTitle="Lightspeeds">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T06:01:48.556Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/products/pt/gaming/mice/g400s-optical-gaming-mouse/910-003592/g400s-gaming-mouse-images8.png"/>
+            </product_banner>
+            <section_copy_copy
+                jcr:created="{Date}2018-04-10T16:13:20.078-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T06:01:48.610Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/section"
+                bgColor="bg-white"
+                bgImgAlign="bg-align-center"
+                bgImgAlignMob="inherit"
+                bgImgAlignTab="inherit"
+                extraClass="padding-xl-top padding-medium-bottom"
+                hasContainer="true"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-none-top"
+                sectionSize="size-full"
+                sectionSizeMobile="inherit"
+                sectionSizeTablet="inherit">
+                <sectionsubpar
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured">
+                    <banner_copy_copy
+                        jcr:created="{Date}2018-04-17T13:53:32.975-04:00"
+                        jcr:createdBy="vdonaboina"
+                        jcr:lastModified="{Date}2019-02-18T06:01:48.822Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/banner"
+                        bannerSelection="image"
+                        bannertheme="theme-light"
+                        bgColor="bg-gray1"
+                        bgImgAlign="bg-align-bottom"
+                        bgImgAlignMob="inherit"
+                        bgImgAlignTab="inherit"
+                        bgVideoAlign="bg-align-center"
+                        bgVideoAlignMob="bg-align-center"
+                        bgVideoAlignTab="bg-align-center"
+                        dbannerstyle="size-full"
+                        dbgalignment="bg-align-center"
+                        gradientOverlay="false"
+                        hasContainer="true"
+                        imgMobPath="[,]"
+                        imgPath="[/content/dam/gaming/en/products/G610_Brown_Video_poster_1.png,/content/dam/gaming/en/products/G610_Brown_Video_poster_1.png]"
+                        imgTabPath="[,]"
+                        mbannerstyle="stacked"
+                        mbannertheme="inherit"
+                        mimgalignment="bg-align-bottom"
+                        mimgsize="16:9"
+                        paddingBottom="padding-none-bottom"
+                        paddingTop="padding-none-top"
+                        sectionSize="size-minimum"
+                        sectionSizeMobile="inherit"
+                        sectionSizeTablet="inherit"
+                        tbannerstyle="inherit"
+                        timgalignment="bg-align-bottom"
+                        videoAspectRatio="16x9"
+                        videoDisplayMode="modal"
+                        videoHost="youtube"
+                        videoPlayButton="true"
+                        videoPlayButtonMobile="true"
+                        videoPlayButtonPosition="center"
+                        videoPlayButtonPositionMobile="center"
+                        videoPlayButtonPositionTablet="center"
+                        videoPlayButtonTablet="true">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:49.062Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <imageTab
+                            jcr:lastModified="{Date}2019-02-18T06:01:49.134Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <imageMob
+                            jcr:lastModified="{Date}2019-02-18T06:01:49.229Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <copyblock
+                            jcr:lastModified="{Date}2019-02-18T06:01:49.270Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="gaming/components/content/banner-copy-block"
+                            deskImgPos="img-pos-top"
+                            desktopAlignment="copy-align-center"
+                            desktopOffset="0"
+                            desktopPosition="copy-pos-bottom"
+                            desktopTitleSize="h4"
+                            desktopWidth="copy-width-6"
+                            horizontalDivider="false"
+                            mainDescription="Fly commercial and private planes as a beginner or advanced pilot with a true simulation yoke and quadrant in your hands. Develop the muscle memory and experience the feeling of precise, realistic control.&#xd;&#xa;&#xd;&#xa;The Logitech G Flight Yoke System with included Throttle Quadrant features five total axes, stainless steel elevator and aileron control shaft, and 25 fully programmable buttons and switch positions. The yoke system is the hero of flight simulation and part of a complete, balanced setup—all available, modular and interchangeable from Logitech G."
+                            mainTitle="Get in the Pilot’s Seat with True Flight Simulation"
+                            mobAlignment="inherit"
+                            mobileImgPos="img-pos-center"
+                            mobOffset="0"
+                            mobPosition="inherit"
+                            mobTitleSize="h5"
+                            openBannerNewTab="false"
+                            openEyebrowNewTab="false"
+                            tabletAlignment="inherit"
+                            tabletImgPos="inherit"
+                            tabletOffset="0"
+                            tabletPosition="inherit"
+                            tabletTitleSize="inherit"
+                            tabletWidth="inherit">
+                            <image
+                                jcr:lastModified="{Date}2019-02-18T06:01:49.527Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"/>
+                        </copyblock>
+                        <sectionsubpar
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </banner_copy_copy>
+                </sectionsubpar>
+            </section_copy_copy>
+            <media_grid_copy_copy
+                jcr:created="{Date}2018-04-10T18:35:39.077-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T06:01:49.652Z"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/media-grid"
+                theme="theme-dark"
+                title="KEY FEATURES">
+                <media_tiles
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/parsys">
+                    <media_tile
+                        jcr:created="{Date}2018-04-10T18:36:05.873-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:50.178Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Pro-Grade Yoke"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Real Steel, Precision Bearings&lt;/p>&#xa;&lt;p>Unlike some of the other offerings on the market, Logitech G Flight Yoke utilizes a durable stainless steel shaft with precision bearings for smooth, predictable elevator and aileron control. Whether navigating the front-to-back, side-to-side, or vertical axes, all controls are right at your fingertips. The built-in stopwatch is perfect for timing approaches, and if your PC lacks extra available USB ports, an integrated USB Hub provides a docking station for additional Logitech G Flight hardware.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:50.351Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-1.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:50.404Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile>
+                    <media_tile_654806920
+                        jcr:created="{Date}2018-04-10T18:46:17.300-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:50.534Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Pro-Grade Throttle Quadrant"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Detachable, Configurable Knobs&lt;/p>&#xa;&lt;p>Every Flight Yoke System includes a Flight Throttle Quadrant and for precise control over multi-engine aircraft, &lt;a>&lt;/a>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-throttle-quadrant&quot;>additional Throttle Quadrants&lt;/a> are available separately. All levers are fully programmable and detachable, so you can configure any combination of throttle, flaps, mixture or propeller pitch. Just arrange lever knobs in the configuration that works best and assign commands from your favorite sim. The levers' detents—physical markings indicating where a certain action takes places—simplify control of your plane's idle and reverse thrusters.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:50.808Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-2.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:50.899Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_654806920>
+                    <media_tile_777233576
+                        jcr:created="{Date}2018-04-10T18:50:27.290-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:50.959Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Simple Installation"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Plug-and-Play All the Way&lt;br>&#xa;&lt;br>&#xa;No need to load drivers or install extra software. Just connect the Throttle Quadrant to the Yoke via PS/2 cable, then the Yoke directly connects to a USB port on your PC or Mac. Load your simulation software of choice, set controls in the software options menu, and you're all set for virtual flight. For more advance settings and customization, download the software from our website.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:51.126Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-3.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:51.273Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_777233576>
+                    <media_tile_842265300
+                        jcr:created="{Date}2018-04-10T18:50:40.143-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:51.350Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="75 Programmable Options"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Customization Software is Part of the Package&lt;/p>&#xa;&lt;p>While the Yoke and Quadrant have 25 buttons and switch positions, you may want to fine-tune and customize your controls. For programming capability, download the drivers and software to start customizing. The Yoke features a three-position switch, so you can cycle through three complete profiles, with ease and speed, for a total number of 75 user-definable controls.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:51.473Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-4.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:51.566Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cta
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Download Drivers Now"
+                                ctalink="http://support.logitech.com/en-gb/product/flight-sim-yoke-system"
+                                ctastyle="cta"/>
+                        </cta>
+                    </media_tile_842265300>
+                    <media_tile_1548322686
+                        jcr:created="{Date}2018-04-10T19:02:10.310-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:51.811Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Secure with Adjustable Mounts"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Rugged Fastening Hardware Included&lt;br>&#xa;&lt;br>&#xa;Logitech G Flight Yoke and Throttle Quadrant are both equipped with adaptable mounting clamps which provide the freedom to configure your kit in any manner you see fit. Whether on top of your desk or clamped to the front, you can securely place the controls exactly where you want them.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.012Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-5.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.206Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_1548322686>
+                    <media_tile_1592272073
+                        jcr:created="{Date}2018-04-17T12:51:04.371-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:52.311Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Build a Modular Cockpit"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Part of a Complete System&lt;br>&#xa;&lt;br>&#xa;For countless interchangeable configurations, Logitech G Flight Yoke System is built to integrate with the &lt;a href=&quot;For countless interchangeable configurations, Logitech G Flight Yoke System is built to integrate with the complete line of flight simulation products. All simulation panels can be situated one on top of another or side-by-side. Altimeter above the Compass, Vertical Speed Indicator to the left of your Airborne Direction Finder … the choice is yours. Easy-to-use mounting brackets give you control of your flight simulation setup, including sturdy table mount brackets for a secure yoke and quadrant.&quot;>complete line of flight simulation products&lt;/a>. All simulation panels can be situated one on top of another or side-by-side. Altimeter above the Compass, Vertical Speed Indicator to the left of your Airborne Direction Finder … the choice is yours. Easy-to-use mounting brackets give you control of your flight simulation setup, including sturdy table mount brackets for a secure yoke and quadrant.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.447Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-6.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.533Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_1592272073>
+                    <media_tile_8105204
+                        jcr:created="{Date}2018-04-17T12:53:04.148-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T06:01:52.583Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="Learn to Fly an MD80"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>Simulate the Actual Aircraft with This Kit&lt;br>&#xa;&lt;br>&#xa;For a quick simulation configuration to get you in the pilot’s seat of an MD80 twin-engine commercial jetliner, this bundle is the recipe:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-yoke-system&quot;>1 Flight Yoke System&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-instrument-panel&quot;>2 Flight Instrument Panels&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-switch-panel&quot;>1 Flight Switch Panel&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-cockpit-radio-panel&quot;>1 Flight Radio Panel&lt;/a>&lt;/li>&#xa;&lt;li>&lt;a href=&quot;https://www.logitechg.com/en-gb/product/flight-sim-autopilot-multipanel&quot;>1 Flight Multi Panel&lt;/a>&lt;/li>&#xa;&lt;/ul>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.793Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/flight-yoke-system/yoke-feature-7.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T06:01:52.923Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_8105204>
+                </media_tiles>
+            </media_grid_copy_copy>
+            <tech_specifications
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/tech-specification">
+                <product_par
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/tech-specification/parsys">
+                    <product_information
+                        jcr:lastModified="{Date}2019-02-18T06:01:53.476Z"
+                        jcr:lastModifiedBy="rchittati"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-information"
+                        infotitle="SPECIFICATIONS">
+                        <subproduct_par
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <list_information_140
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="PACKAGE CONTENTS">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Yoke with 1.8m USB Connector Cable"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Throttle Quadrant with 1.5m PS/2 Connector Cable"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="2 Desk Clamps"/>
+                                </features>
+                            </list_information_140>
+                            <list_information_140_417318607
+                                jcr:lastModified="{Date}2019-02-18T06:01:54.708Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="SYSTEM REQUIREMENTS">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Smart Technology "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Windows® 10, Windows 8.1, Windows 7 "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="1-USB 2.0 Port "/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Internet connection for optional software download"/>
+                                </features>
+                            </list_information_140_417318607>
+                            <list_information_458
+                                jcr:created="{Date}2018-04-16T14:56:35.232-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T06:01:55.509Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="PHYSICAL SPECIFICATIONS"
+                                subfeaturetitle="Flight Yoke:">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 38 – 46.4 cm"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 31 cm"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 18.5 cm"/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight (w/o clamps): 1775 g"/>
+                                    <item5
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 2094 g"/>
+                                    <item6
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Cable Length (Power/Charging): 1.8 m"/>
+                                </features>
+                            </list_information_458>
+                            <list_information_140_955108643
+                                jcr:lastModified="{Date}2019-02-18T06:01:56.533Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                subfeaturetitle="Yoke Clamp:">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 16.7 cm"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 15.5 cm"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 24.7 cm"/>
+                                </features>
+                            </list_information_140_955108643>
+                            <list_information_140_1498825883
+                                jcr:lastModified="{Date}2019-02-18T06:01:56.972Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                subfeaturetitle="Flight Throttle Quadrant:">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 11 – 17.5 cm"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 16.5 – 17.5 cm"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 9 cm"/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight (w/o clamps): 501 g"/>
+                                    <item5
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 694 g"/>
+                                    <item6
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Cable Length (Power/Charging): 1.5 m "/>
+                                </features>
+                            </list_information_140_1498825883>
+                            <list_information_140_989953168
+                                jcr:lastModified="{Date}2019-02-18T06:01:57.875Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                subfeaturetitle=" Throttle Quadrant Clamp:">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 10.8 cm "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 11 cm"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 9 cm"/>
+                                </features>
+                            </list_information_140_989953168>
+                            <list_information_140_1197400864
+                                jcr:lastModified="{Date}2019-02-18T06:01:58.345Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="Controller Specifications">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Connection Type: USB"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Protocol: USB 2.0"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Speed: Full Speed"/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Indicator LIghts (LED): Yes"/>
+                                    <item5
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="LCD Display: Yes"/>
+                                    <item6
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Ports (Built-in): Yes"/>
+                                    <item7
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Backlighting: No"/>
+                                </features>
+                            </list_information_140_1197400864>
+                            <list_information_480
+                                jcr:lastModified="{Date}2019-02-18T06:01:59.333Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="true"
+                                displayWarrantyInformation="false"/>
+                            <list_information_480_698469721
+                                jcr:lastModified="{Date}2019-02-18T06:01:59.395Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="true"/>
+                        </subproduct_par>
+                        <keyfeatures
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Steel Shaft"
+                                featurevalue="Precision Bearing Yoke"/>
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Configurable"
+                                featurevalue="Throttle Knobs"/>
+                            <item2
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="3 Modes"
+                                featurevalue="75 Programmable Controls"/>
+                        </keyfeatures>
+                    </product_information>
+                </product_par>
+            </tech_specifications>
+            <buy_module
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/buy-module"/>
+            <recommended_for_you
+                jcr:lastModified="{Date}2019-02-18T06:01:59.863Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="recommended_for_you"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/driving/driving-force-racing-wheel"
+                title="RECOMMENDED FOR YOU"/>
+            <you_might_also_like
+                jcr:lastModified="{Date}2019-02-18T06:01:59.954Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="you_might_also_like"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/flight/flight-simulator-rudder-pedals"
+                product2Path="/content/gaming/amr/live/en_us/apg/products/flight/flight-simulator-autopilot-multipanel"
+                title="YOU MIGHT ALSO LIKE"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2019-02-18T06:02:00.096Z"
+            jcr:lastModifiedBy="rakiyoshi"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-18T06:02:00.176Z"
+            jcr:lastModifiedBy="rakiyoshi"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

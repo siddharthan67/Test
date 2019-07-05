@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2018-11-02T02:58:12.077-04:00"
+        cq:lastModifiedBy="vdonaboina"
+        cq:lastReplicated="{Date}2018-12-05T10:41:59.392Z"
+        cq:lastReplicatedBy="rtr"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.257-04:00"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="home-event-1"
+        jcr:uuid="ccab959d-7a08-4ef6-ad1e-b49628049012"
+        sling:resourceType="gaming/components/structure/eventPage"
+        hideInNav="true"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2018-11-02T02:58:11.260-04:00"
+            jcr:lastModifiedBy="ajagannathan"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="We can't wait to see what the world thinks of the latest games from the Heart of Gaming. It will be a massive event that you shouldn't miss."
+            endDate="{Date}2018-08-25T00:00:00.000-04:00"
+            location="Cologne, Germany"
+            startDate="{Date}2018-08-21T00:00:00.000-04:00"
+            title="Gamescom">
+            <image
+                jcr:lastModified="{Date}2018-11-02T02:58:11.463-04:00"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <logo
+                jcr:lastModified="{Date}2018-11-02T02:58:11.586-04:00"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:lastModified="{Date}2018-11-02T02:58:11.706-04:00"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:lastModified="{Date}2018-11-02T02:58:12.076-04:00"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="FIND OUT MORE"
+                    ctalink="http://www.gamescom.global/"
+                    ctastyle="cta-forward"/>
+            </cta>
+        </event>
+    </jcr:content>
+</jcr:root>

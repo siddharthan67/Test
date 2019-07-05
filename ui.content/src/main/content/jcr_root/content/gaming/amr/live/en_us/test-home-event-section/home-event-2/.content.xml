@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-22T06:24:03.510Z"
+        cq:lastModifiedBy="aa"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.850-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PAX West"
+        sling:resourceType="gaming/components/structure/eventPage"
+        hideInNav="true"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2019-02-22T06:24:02.229Z"
+            jcr:lastModifiedBy="aa"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="PAX is where gamers play. Don't forget to stop by the Logitech G booth in Seattle this year, so we can make sure you PLAY ADVANCED."
+            endDate="{Date}2018-09-03T09:30:00.000+05:30"
+            location="Seattle, WA USA"
+            startDate="{Date}2018-08-31T09:30:00.000+05:30"
+            title="PAX West">
+            <image
+                jcr:lastModified="{Date}2019-02-22T06:24:02.497Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/events/events-pax-west.png"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-22T06:24:02.742Z"
+                jcr:lastModifiedBy="aa"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="FIND OUT MORE"
+                    ctalink="http://prime.paxsite.com/"
+                    ctastyle="cta-forward"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2019-02-22T06:24:03.277Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-22T06:24:03.509Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

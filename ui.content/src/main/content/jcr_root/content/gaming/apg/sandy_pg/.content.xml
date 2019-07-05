@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content/>
+    <gameselector_test/>
+    <playerinformationtest/>
+    <playerdetails_test/>
+    <buymodule_test/>
+    <productbannertest/>
+    <list_test/>
+    <testmonial_test/>
+    <testimonial_test1/>
+    <testimonial/>
+    <youmightalsoliketest/>
+    <check1/>
+    <grid-test/>
+    <gridtest_new/>
+    <testing_grid/>
+    <grid/>
+    <grid1/>
+    <es/>
+    <es1/>
+    <player-rajesh/>
+    <featured-video/>
+    <player-rajesh1/>
+    <quotes1/>
+</jcr:root>

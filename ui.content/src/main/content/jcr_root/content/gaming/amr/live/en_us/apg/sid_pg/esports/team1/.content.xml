@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:28.234Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:tags="[gaming:esports/games/csgo,gaming:esports/teams/rajesh1,gaming:esports/games/league-of-legends]"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="team1"
+        jcr:uuid="702a2b11-618d-444d-bac9-3188d842b8c4"
+        sling:resourceType="gaming/components/structure/pageteam"
+        gameTags="[gaming:esports/games/csgo,gaming:esports/games/league-of-legends]"
+        tagForTeam="[gaming:esports/teams/rajesh1]"
+        teamName="legends">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

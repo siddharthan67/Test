@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-04T12:47:10.807Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="html"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <html
+                jcr:created="{Date}2019-05-14T09:37:17.646Z"
+                jcr:createdBy="ssatheshkumar"
+                jcr:lastModified="{Date}2019-06-04T12:47:10.804Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/html"
+                backgroundBottomSpacing="_empty_"
+                backgroundColor="transparent-bg"
+                backgroundColorMobile="_empty_"
+                backgroundColorTablet="_empty_"
+                backgroundHex="&lt;title> TITLE&lt;title>"
+                backgroundTopSpacing="_empty_">
+                <paths jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        name="text"
+                        path="/content/logitech-com/en"/>
+                </paths>
+                <texts jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        name="Text tag"
+                        text="TEst"/>
+                </texts>
+            </html>
+        </par>
+    </jcr:content>
+</jcr:root>

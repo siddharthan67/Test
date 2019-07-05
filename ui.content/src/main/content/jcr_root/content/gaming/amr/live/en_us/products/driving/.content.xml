@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:lastModified="{Date}2019-06-17T07:12:47.181Z"
+        cq:lastModifiedBy="sdaniel"
+        cq:lastReplicated="{Date}2019-06-18T09:07:51.514Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/catalog-section-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Driving"
+        jcr:uuid="3f38aabd-ce0c-4c36-a2a6-8b7a9bc2c1d5"
+        sling:resourceType="gaming/components/structure/catalogSectionDisplayPage"
+        robotsOptions="default">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <banner
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/banner"/>
+            <product_list
+                jcr:lastModified="{Date}2019-06-17T07:12:47.179Z"
+                jcr:lastModifiedBy="sdaniel"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-list"
+                maxPriceRange="-1"
+                minPriceRange="0"
+                parentCategories="gaming:Features"/>
+        </par>
+    </jcr:content>
+    <driving-force-shifter/>
+    <driving-force-racing-wheel/>
+    <g27-racing-wheel/>
+</jcr:root>

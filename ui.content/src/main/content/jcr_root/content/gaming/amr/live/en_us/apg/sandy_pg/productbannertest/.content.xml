@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:50.150Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="ProductBannerTest"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <product_banner
+                jcr:created="{Date}2019-01-30T09:53:03.558Z"
+                jcr:createdBy="ssatheshkumar"
+                jcr:lastModified="{Date}2019-02-18T05:33:50.004Z"
+                jcr:lastModifiedBy="ssatheshkumar"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-banner"
+                additionalInfo="Test Product"
+                altText="Test Product"
+                bgAlignment="center"
+                bgMobAlignment="inherit"
+                bgTabAlignment="inherit"
+                bgTheme="kohle"
+                billboardOffX="50"
+                billboardOffY="-17"
+                billboardScale="100"
+                copyPosition="left"
+                copyPositionY="0"
+                imgOffX="0"
+                imgOffXMob="0"
+                imgOffXTab="0"
+                imgOffY="95"
+                imgOffYMob="95"
+                imgOffYTab="95"
+                imgWidth="10"
+                openNewTab="true"
+                openNewTabtwo="false"
+                prodImgAlignment="center"
+                productAuthoredPath="/content/astrogaming/fr"
+                productCtaLink="Hi2"
+                productCtaTitle="Hi1"
+                productDesc="S1 Gaming Mouse"
+                productTitle="Gaming Mouse">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T05:33:50.149Z"
+                    jcr:lastModifiedBy="ssatheshkumar"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/logitech-components/logitech-logo-dark.png"/>
+            </product_banner>
+        </par>
+    </jcr:content>
+</jcr:root>

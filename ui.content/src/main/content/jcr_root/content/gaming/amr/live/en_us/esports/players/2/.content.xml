@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-15T10:49:37.145Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-03-05T19:19:26.710Z"
+        cq:lastReplicatedBy="bnedungadi"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/games/dota-2,gaming:esports/games/starcraft]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Raz"
+        jcr:uuid="2b0e9202-9c6c-4f24-9f06-937a616d9577"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        gameTags="[gaming:esports/games/dota-2]"
+        teamTags="[gaming:esports/games/starcraft]">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <player_information
+            jcr:lastModified="{Date}2019-02-15T10:49:36.937Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            name="Raz2"
+            realname="rajesh">
+            <playerImage
+                jcr:lastModified="{Date}2019-02-15T10:49:37.144Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/we-retail/en/products/apparel/shorts/Shorts_women.jpg"/>
+        </player_information>
+    </jcr:content>
+</jcr:root>

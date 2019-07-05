@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:48.127Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="GameSelector_Test"
+        sling:resourceType="gaming/components/structure/pageteam">
+        <team_banner
+            jcr:lastModified="{Date}2019-02-18T05:33:47.738Z"
+            jcr:lastModifiedBy="ssatheshkumar"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/team-banner"
+            altText="Game">
+            <desktopBgImage
+                jcr:lastModified="{Date}2019-02-18T05:33:47.841Z"
+                jcr:lastModifiedBy="ssatheshkumar"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <mobileBgImage
+                jcr:lastModified="{Date}2019-02-18T05:33:47.930Z"
+                jcr:lastModifiedBy="ssatheshkumar"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+        </team_banner>
+        <team_par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <game_selector
+                jcr:created="{Date}2019-01-24T05:04:34.619Z"
+                jcr:createdBy="rbalakrishnan1"
+                jcr:lastModified="{Date}2019-02-18T05:33:48.126Z"
+                jcr:lastModifiedBy="rbalakrishnan1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/game-selector"/>
+        </team_par>
+    </jcr:content>
+</jcr:root>
