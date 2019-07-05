@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:commerceProvider="digitalriver"
+        cq:designPath="/etc/designs/gaming"
+        cq:lastModified="{Date}2018-08-01T17:32:23.853-04:00"
+        cq:lastModifiedBy="ajagannathan"
+        cq:lastReplicated="{Date}2019-05-28T10:24:31.944Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-07-25T10:37:28.536-04:00"
+        jcr:lastModifiedBy="kkumar5"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Errors"
+        jcr:uuid="69ba1f76-450e-4959-aaea-a2323ed0324f"
+        sling:resourceType="gaming/components/structure/page"
+        commerce.addToCartNewTab="true"
+        commerce.cartOverrideNewTab="true"
+        navigationTheme="theme-dark"
+        robotsOptions="noindex, nofollow">
+        <image
+            jcr:lastModified="{Date}2018-08-01T17:32:23.783-04:00"
+            jcr:lastModifiedBy="kkumar5"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-08-01T17:32:23.852-04:00"
+            jcr:lastModifiedBy="kkumar5"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+    <_x0034_04/>
+    <_x0035_00/>
+</jcr:root>

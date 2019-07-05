@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-18T05:59:59.500Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:tags="[gaming:sim-gear-features/mini-analog-sticks,gaming:specifications/programmable-buttons,gaming:category/space,gaming:product-catalog/variant-axes/color/graphite-off-white,gaming:specifications/number-of-buttons,gaming:specifications/number-of-axes,gaming:specifications/programmable-commands,gaming:specifications/number-of-modes,gaming:Features/throttle-detents,gaming:information-panels/lcd-screen,gaming:platform/pc,gaming:specifications/number-of-hat-switches,gaming:specifications/lighting,gaming:product-catalog/metadata/type/gaming,gaming:specifications/throttle-type]"
+        cq:template="/apps/gaming/templates/product-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-07-25T21:34:35.850-04:00"
+        jcr:lastModifiedBy="rakiyoshi"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="X52 H-O-T-A-S - Slardar"
+        jcr:uuid="dbf3d330-b10c-4a7c-9372-7f979d094834"
+        sling:resourceType="gaming/components/structure/productDisplayPage"
+        features="[gaming:platform/pc]"
+        logi.masterPage="/content/gaming/amr/live/en_us/catalog/space/x52-space-flight-simulator-controller"
+        navigationTheme="theme-dark"
+        pageTheme="theme-standard"
+        pageTitle="X52 H-O-T-A-S"
+        seoDescription="Logitech G X52 Throttle &amp; Stick for space and flight simulator games delivers responsive, precise cockpit controls for dogfights, space missions, and more."
+        seoPageTitle="Logitech G X52 Flight and Space Simulator Throttle &amp; Stick"
+        specifications="[{&quot;description&quot;:&quot;30&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/number-of-buttons&quot;},{&quot;description&quot;:&quot;5&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/number-of-hat-switches&quot;},{&quot;description&quot;:&quot;13&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/number-of-axes&quot;},{&quot;description&quot;:&quot;2&quot;\,&quot;specificationTag&quot;:&quot;gaming:sim-gear-features/mini-analog-sticks&quot;},{&quot;description&quot;:&quot;3&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/number-of-modes&quot;},{&quot;description&quot;:&quot;189+&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/programmable-commands&quot;},{&quot;description&quot;:&quot;Dual&quot;\,&quot;specificationTag&quot;:&quot;gaming:specifications/throttle-type&quot;},{&quot;description&quot;:&quot;RGB&quot;\,&quot;specificationTag@TypeHint&quot;:&quot;String[]&quot;}]">
+        <par
+            jcr:lastModified="{Date}2019-02-18T05:59:46.762Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <product_banner
+                jcr:lastModified="{Date}2019-02-18T05:59:46.855Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-banner"
+                additionalInfo="Testing Manually "
+                bgAlignment="top"
+                bgMobAlignment="inherit"
+                bgTabAlignment="left"
+                bgTheme="bg-dark-radial-gradient"
+                billboardOffX="50"
+                billboardOffY="40"
+                billboardScale="0"
+                copyPosition="left"
+                copyPositionY="-100"
+                imgOffX="0"
+                imgOffXMob="0"
+                imgOffXTab="0"
+                imgOffY="95"
+                imgOffYMob="95"
+                imgOffYTab="95"
+                imgWidth="10"
+                openNewTab="true"
+                openNewTabtwo="true"
+                prodImgAlignment="right"
+                productAuthoredPath="/content/gaming/amr/live/en_us/apg/products/space/x52-space-flight-simulator-controller"
+                productCtaLink="/content/gaming/amr/live/en_us/products/gaming-mice/g100s-optical-gaming-mouse"
+                productCtaTitle="Text Button"
+                productCtaTwoLink="/content/gaming/amr/live/en_ca/esports/jteam"
+                productCtaTwoTitle="http://www.google.co.in"
+                productDesc="X52 H.O.T.A.S.&#xd;&#xa;THROTTLE AND STICK SIMULATION CONTROLLER"
+                productTitle="X52 H.O.T.A.S.">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T05:59:47.023Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/products/pt/gaming/mice/g600-mmo-gaming-mouse/910-003542/g600-gaming-mouse-images15.png"/>
+            </product_banner>
+            <section_copy_copy_co
+                jcr:created="{Date}2018-05-14T19:37:36.114-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T05:59:47.161Z"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/section"
+                bgColor="bg-gray5"
+                bgImgAlign="bg-align-center"
+                bgImgAlignMob="inherit"
+                bgImgAlignTab="inherit"
+                extraClass="padding-large-top padding-large-bottom"
+                hasContainer="true"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-none-top"
+                sectionSize="size-50vh"
+                sectionSizeMobile="inherit"
+                sectionSizeTablet="inherit">
+                <sectionsubpar
+                    jcr:lastModified="{Date}2019-02-18T05:59:47.245Z"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/parsys">
+                    <copy_block
+                        jcr:created="{Date}2018-06-05T21:20:46.671-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:47.392Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/copy-block"
+                        description="X52 delivers precise flight simulator operation, employing a multifunction LCD for easy access to an astounding minimum of 105 programmable commands. Coordinate your flight plan with clock and stopwatch function. Fly long comfortable stretches with adjustable handle to accommodate a wide range of hand sizes."
+                        paddingBottom="padding-xl-bottom"
+                        paddingTop="padding-xl-top"
+                        textAlignment="center-text"
+                        textColor="text-gray1"
+                        textWidth="constrain-text-width-wide"
+                        title="Realistic Flying at Hand "
+                        titleSize="h4"/>
+                </sectionsubpar>
+            </section_copy_copy_co>
+            <media_grid_copy
+                jcr:created="{Date}2018-05-30T21:02:47.434-04:00"
+                jcr:createdBy="achase1"
+                jcr:lastModified="{Date}2019-02-18T05:59:47.460Z"
+                jcr:lastModifiedBy="achase1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/media-grid"
+                theme="theme-dark"
+                title="Key Features">
+                <media_tiles
+                    jcr:lastModified="{Date}2019-02-18T05:59:47.532Z"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/parsys">
+                    <media_tile_copy
+                        jcr:created="{Date}2018-05-30T03:35:30.241-04:00"
+                        jcr:createdBy="schaitanya"
+                        jcr:lastModified="{Date}2019-02-18T05:59:47.684Z"
+                        jcr:lastModifiedBy="msohn"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="Illuminated Buttons and LCD Display"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-light"
+                        text="&lt;p>&lt;b>Realism in Lighting&lt;/b>&lt;/p>&#xa;&lt;p>Illuminated critical buttons on the stick and throttle let you know where to press when time is of the essence. Enhanced LCD display, with adjustable backlighting, gives you information about your button configurations at-a-glance.&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:47.834Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-1.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:47.928Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_copy>
+                    <media_tile_654806920
+                        jcr:created="{Date}2018-04-10T18:46:17.300-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:48.011Z"
+                        jcr:lastModifiedBy="olee"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="Spring Centering Mechanism"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>&lt;b>Constant Spring Force&lt;/b>&lt;/p>&#xa;&lt;p>A highly accurate centering mechanism ensures the joystick will easily return to the neutral position after you let go. Non-contact technology on the X and Y axes enhance control while increasing durability.&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:48.278Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-2.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:48.350Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cta
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Download customization software now"
+                                ctalink="http://support.logitech.com/product/x52-space-flight-simulator-controller"
+                                ctastyle="cta-forward"
+                                openNewTab="true"/>
+                        </cta>
+                    </media_tile_654806920>
+                    <media_tile_842265300
+                        jcr:created="{Date}2018-04-10T18:50:40.143-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:48.550Z"
+                        jcr:lastModifiedBy="msohn"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="Progressive, Adjustable Throttle"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-light"
+                        text="&lt;p>&lt;b>Dialed In Resistance and Detents&lt;/b>&lt;/p>&#xa;&lt;p>The throttle unit's progressive functionality improves aircraft response. Detents (physical markings indicating where a certain action activates) simplify control of your craft’s idle, afterburners and reverse thrusters. Yet another customizable feature found on X52, a tension adjustment dial lets you change the throttle's resistance to suit the way you fly.&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:48.657Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-3.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:48.759Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_842265300>
+                    <media_tile_842265300_194111766
+                        jcr:created="{Date}2018-04-10T18:50:40.143-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:48.926Z"
+                        jcr:lastModifiedBy="olee"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="3D Twist Rudder Control"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>&lt;b>With Rudder Center Lock Option&lt;/b>&lt;/p>&#xa;&lt;p>The joystick's twist rudder controls add another dimension of command to simulated flight. If you prefer more traditional control, a rudder lock switch disables the twist capabilities and confines input to the X and Y axes – ideal for use with &lt;a href=&quot;/content/gaming/amr/live/en_us/apg/products/flight/flight-simulator-rudder-pedals.html&quot;>Logitech G Flight Rudder Pedals&lt;/a> (sold separately)&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.143Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-4.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.211Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_842265300_194111766>
+                    <media_tile_842265300_837246748
+                        jcr:created="{Date}2018-04-10T18:50:40.143-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:49.333Z"
+                        jcr:lastModifiedBy="msohn"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="Advanced Grip Adjustment System"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-light"
+                        text="&lt;p>&lt;b>Custom Ergonomics&lt;/b>&lt;/p>&#xa;&lt;p>A five-position handle adjustment system conforms to your grip style and hand size. And to promote maximum comfort during epic flights, the joystick's handle also features contours which harmonize with your digits.&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.551Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-5.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.611Z"
+                            jcr:lastModifiedBy="msohn"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_842265300_837246748>
+                    <media_tile_842265300_2037957626
+                        jcr:created="{Date}2018-04-10T18:50:40.143-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:59:49.650Z"
+                        jcr:lastModifiedBy="ajagannathan"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        altText="X52 H.O.T.A.S. Throttle and Stick Simulation Controller"
+                        featureTitle="Powerful Programming Software"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        mobileTheme="theme-dark"
+                        text="&lt;p>&lt;b>Three Modes&lt;/b>&lt;/p>&#xa;&lt;p>Downloadable software lets you create custom profiles for your space and flight sims. Three mode settings and a pinkie switch provide enhanced programming options for even more control for all 7 axes, 3 HATs, mouse micro stick &lt;g class=&quot;gr_ gr_6 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep&quot; data-gr-id=&quot;6&quot;>and&lt;/g> 19 programmable buttons.&lt;/p>&#xa;"
+                        textAlignment="left-align-text"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.849Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/x52-hotas/x52-feature-6.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:59:49.919Z"
+                            jcr:lastModifiedBy="olee"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                        <cta
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Download customization software now"
+                                ctalink="http://support.logitech.com/product/x52-space-flight-simulator-controller"
+                                ctastyle="cta-forward"
+                                openNewTab="true"/>
+                        </cta>
+                    </media_tile_842265300_2037957626>
+                </media_tiles>
+            </media_grid_copy>
+            <tech_specifications_
+                jcr:lastModified="{Date}2019-02-18T05:59:50.112Z"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/tech-specification">
+                <product_par
+                    jcr:lastModified="{Date}2019-02-18T05:59:50.242Z"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/tech-specification/parsys">
+                    <product_information
+                        jcr:lastModified="{Date}2019-02-18T05:59:50.374Z"
+                        jcr:lastModifiedBy="olee"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-information"
+                        infotitle="SPECIFICATIONS">
+                        <subproduct_par
+                            jcr:lastModified="{Date}2019-02-18T05:59:50.522Z"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <list_information_529_1056153778
+                                jcr:created="{Date}2018-05-17T15:31:28.401-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:50.751Z"
+                                jcr:lastModifiedBy="achase1"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="PACKAGE CONTENTS">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:50.830Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.015Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Stick Unit with USB connector cable"/>
+                                    <item2
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.101Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Throttle Unit with USB connector cable"/>
+                                    <item3
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.231Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="User documentation"/>
+                                </features>
+                            </list_information_529_1056153778>
+                            <list_information_111
+                                jcr:created="{Date}2018-05-17T17:50:59.074-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:51.321Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="PHYSICAL SPECIFICATIONS"
+                                subfeaturetitle="STICK:">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:51.483Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <_x0031_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.646Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 6.7 in (17 cm)"/>
+                                    <_x0032_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.742Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 6.7 in (17 cm)"/>
+                                    <_x0033_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.808Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 10.9 in (27.8 cm)"/>
+                                    <_x0034_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.879Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 2.3 lbs (1033 g)"/>
+                                    <_x0035_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:51.956Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Cable Length (Power/Charging): 4.6 ft (1.4 m) "/>
+                                </features>
+                            </list_information_111>
+                            <list_information_111_1026558602
+                                jcr:created="{Date}2018-05-17T17:50:59.074-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:52.025Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                subfeaturetitle="THROTTLE:">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:52.139Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <_x0031_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.352Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Length: 6.7 in (17 cm)"/>
+                                    <_x0032_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.406Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Width: 6.7 in (17 cm)"/>
+                                    <_x0033_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.455Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height: 7.5 in (19 cm)"/>
+                                    <_x0034_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.504Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 1.6 lbs (728 g)"/>
+                                    <_x0035_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.589Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Cable Length (Power/Charging): 4.6 ft (1.4 m)"/>
+                                </features>
+                            </list_information_111_1026558602>
+                            <list_information_276
+                                jcr:created="{Date}2018-05-17T15:33:46.532-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:52.635Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="SYSTEM REQUIREMENTS">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:52.684Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <_x0031_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.809Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Smart Technology"/>
+                                    <_x0032_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.895Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Windows® 10, Windows 8.1, Windows 7"/>
+                                    <_x0033_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:52.978Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="2-USB 2.0 Port"/>
+                                    <_x0034_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.075Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Internet connection for optional software download"/>
+                                </features>
+                            </list_information_276>
+                            <list_information_136
+                                jcr:created="{Date}2018-05-17T16:49:59.985-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:53.163Z"
+                                jcr:lastModifiedBy="achase1"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Controller Specifications">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:53.249Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.515Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Connection Type: USB"/>
+                                    <item2
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.563Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Protocol: USB 2.0"/>
+                                    <item3
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.738Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Speed: Full Speed"/>
+                                    <item4
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.796Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Indicator LIghts (LED): Yes"/>
+                                    <item5
+                                        jcr:lastModified="{Date}2019-02-18T05:59:53.950Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="LCD Display: Yes"/>
+                                    <item6
+                                        jcr:lastModified="{Date}2019-02-18T05:59:54.043Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="USB Ports (Built-in): No"/>
+                                    <item7
+                                        jcr:lastModified="{Date}2019-02-18T05:59:54.152Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Backlighting: Yes"/>
+                                </features>
+                            </list_information_136>
+                            <list_information_886262025
+                                jcr:created="{Date}2018-05-17T17:31:39.499-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:54.235Z"
+                                jcr:lastModifiedBy="tto"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="false"
+                                featuretitle="Game Compatibility"
+                                subfeaturetitle="Compatible with most major simulation software and games, including:"
+                                text="&lt;p>&lt;br>&#xa;&amp;nbsp;&lt;/p>&#xa;"
+                                textIsRich="true">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:54.410Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.084Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Elite: Dangerous"/>
+                                    <item2
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.171Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Star Citizen"/>
+                                    <item3
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.221Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Battlefield 1"/>
+                                    <item4
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.315Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Simulator X"/>
+                                    <item5
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.387Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight Simulator 2004"/>
+                                    <item6
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.459Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Flight School"/>
+                                    <item7
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.539Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Prepar3D® 2.2+"/>
+                                    <item8
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.620Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="X-Plane 11"/>
+                                    <item9
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.747Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="X-Plane 10"/>
+                                    <item10
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.811Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="X-Plane 9"/>
+                                    <item11
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.904Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="DCS World"/>
+                                    <item12
+                                        jcr:lastModified="{Date}2019-02-18T05:59:55.976Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="DCS: A-10C Warthog"/>
+                                    <item13
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.035Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="DCS: Black Shark 2"/>
+                                    <item14
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.148Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="DCS: UH-1H Huey"/>
+                                    <item15
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.231Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Lock On: Modern Air Combat (LOMAC)"/>
+                                    <item16
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.319Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Lock On: Flaming Cliffs 3"/>
+                                    <item17
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.389Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Lock On: Flaming Cliffs 2"/>
+                                    <item18
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.505Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Lock On: Flaming Cliffs"/>
+                                    <item19
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.566Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="aerofly FS"/>
+                                    <item20
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.684Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="aerofly FS2"/>
+                                    <item21
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.756Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Take On Helicopters (TKOH)"/>
+                                    <item22
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.849Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Rise of Flight"/>
+                                    <item23
+                                        jcr:lastModified="{Date}2019-02-18T05:59:56.920Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Arma 3"/>
+                                    <item24
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.014Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Falcon 4.0: Allied Force"/>
+                                    <item25
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.084Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Falcon BMS 4.32"/>
+                                    <item26
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.178Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="World of Warplanes"/>
+                                    <item27
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.247Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="War Thunder"/>
+                                </features>
+                            </list_information_886262025>
+                            <list_information
+                                jcr:created="{Date}2018-05-17T14:10:48.311-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:57.318Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="true"
+                                displayWarrantyInformation="false">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:57.441Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <_x0031_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.527Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </features>
+                            </list_information>
+                            <list_information_cop
+                                jcr:created="{Date}2018-05-17T14:10:48.311-04:00"
+                                jcr:createdBy="achase1"
+                                jcr:lastModified="{Date}2019-02-18T05:59:57.711Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="false"
+                                displayWarrantyInformation="true">
+                                <features
+                                    jcr:lastModified="{Date}2019-02-18T05:59:57.824Z"
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <_x0031_
+                                        jcr:lastModified="{Date}2019-02-18T05:59:57.905Z"
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"/>
+                                </features>
+                            </list_information_cop>
+                        </subproduct_par>
+                        <keyfeatures
+                            jcr:lastModified="{Date}2019-02-18T05:59:57.952Z"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:lastModified="{Date}2019-02-18T05:59:58.123Z"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Illuminated"
+                                featurevalue="Buttons"/>
+                            <item2
+                                jcr:lastModified="{Date}2019-02-18T05:59:58.199Z"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Spring"
+                                featurevalue="Centering"/>
+                            <item3
+                                jcr:lastModified="{Date}2019-02-18T05:59:58.258Z"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Progressive"
+                                featurevalue="Throttle"/>
+                        </keyfeatures>
+                    </product_information>
+                </product_par>
+            </tech_specifications_>
+            <buy_module
+                jcr:lastModified="{Date}2019-02-18T05:59:58.332Z"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/buy-module"/>
+            <recommended_for_you
+                jcr:lastModified="{Date}2019-02-18T05:59:58.434Z"
+                jcr:lastModifiedBy="schaitanya"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="recommended_for_you"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/driving/driving-force-shifter"
+                title="RECOMMENDED FOR YOU"/>
+            <you_might_also_like
+                jcr:lastModified="{Date}2019-02-18T05:59:58.530Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="you_might_also_like"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/space/x52-pro-space-flight-simulator-controller"
+                product2Path="/content/gaming/amr/live/en_us/apg/products/space/x56-space-flight-vr-simulator-controller"
+                title="YOU MIGHT ALSO LIKE"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2019-02-18T05:59:58.603Z"
+            jcr:lastModifiedBy="rakiyoshi"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-18T05:59:58.747Z"
+            jcr:lastModifiedBy="rakiyoshi"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <specifications
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured">
+            <item0
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="30"
+                specificationTag="gaming:specifications/number-of-buttons"/>
+            <item1
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="5"
+                specificationTag="gaming:specifications/number-of-hat-switches"/>
+            <item2
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="13"
+                specificationTag="gaming:specifications/number-of-axes"/>
+            <item3
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="2"
+                specificationTag="gaming:sim-gear-features/mini-analog-sticks"/>
+            <item4
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="3"
+                specificationTag="gaming:specifications/number-of-modes"/>
+            <item5
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="189+"
+                specificationTag="gaming:specifications/programmable-commands"/>
+            <item6
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="Dual"
+                specificationTag="gaming:specifications/throttle-type"/>
+            <item7
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="RGB"
+                specificationTag=""/>
+        </specifications>
+    </jcr:content>
+</jcr:root>

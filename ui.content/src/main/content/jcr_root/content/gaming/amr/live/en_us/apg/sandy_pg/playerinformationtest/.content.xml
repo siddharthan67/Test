@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:48.871Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="PlayerInformation_Test"
+        sling:resourceType="gaming/components/structure/pageplayer">
+        <player_information
+            jcr:lastModified="{Date}2019-02-18T05:33:48.284Z"
+            jcr:lastModifiedBy="ssatheshkumar"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            altText="Alter alt text"
+            background="Game_sANDHY"
+            bestmoments="WInning"
+            country="us"
+            dob="{Date}2002-11-13T15:49:00.000+05:30"
+            expandableBtnText="Expanded buttton test is winning"
+            funfact="games"
+            name="Navas PatelRagav"
+            realname="navas"
+            role="Player"
+            userstatus="121212">
+            <playerImage
+                jcr:lastModified="{Date}2019-02-18T05:33:48.439Z"
+                jcr:lastModifiedBy="ssatheshkumar"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <player_details
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <feature_video
+                    jcr:lastModified="{Date}2019-02-18T05:33:48.574Z"
+                    jcr:lastModifiedBy="ssatheshkumar"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/feature-video"/>
+            </player_details>
+            <longtermattributes
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    key="Win"
+                    value="win1"/>
+            </longtermattributes>
+            <socialLinks
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    faClass="facebook"
+                    link="www.facebbook.com"
+                    newTab="true"/>
+            </socialLinks>
+        </player_information>
+    </jcr:content>
+</jcr:root>

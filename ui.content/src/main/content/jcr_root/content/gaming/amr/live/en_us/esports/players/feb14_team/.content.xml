@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-15T10:49:34.509Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-03-05T19:19:26.710Z"
+        cq:lastReplicatedBy="bnedungadi"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="feb14_team"
+        jcr:uuid="b489a103-9fc9-4979-a6de-0cc3818e374c"
+        sling:resourceType="gaming/components/structure/pageteam"/>
+</jcr:root>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-15T10:51:06.263Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2018-08-02T19:35:57.130-04:00"
+        cq:lastReplicatedBy="msohn"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Shadow Project"
+        jcr:uuid="c9b7c3dd-7068-4d14-acc9-6a0aa62b8105"
+        sling:resourceType="gaming/components/structure/eventPage"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2018-08-02T19:12:55.977-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Last year Logitech G teamed up with McLaren to identify the best all-around racer in eSports with a program titled, World’s Fastest Gamer. It was an exciting ride that spanned 78 countries and 7 months to identify who really is the fastest gamer. "
+            startDate="{Date}2018-07-03T00:00:00.000-04:00"
+            title="McLaren Kicks Off a Pioneering Search For The Best Racing Talent in eSports: Shadow Project">
+            <image
+                jcr:lastModified="{Date}2018-08-02T19:12:56.096-04:00"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/community/latest-stories/latest-stories-best-racing.png"/>
+            <logo
+                jcr:lastModified="{Date}2018-08-02T19:12:56.224-04:00"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Read More"
+                    ctalink="https://blog.logitech.com/2018/07/03/mclaren-kicks-off-a-pioneering-search-for-the-best-racing-talent-in-esports-shadow-project/"
+                    ctastyle="cta-forward"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+    </jcr:content>
+</jcr:root>

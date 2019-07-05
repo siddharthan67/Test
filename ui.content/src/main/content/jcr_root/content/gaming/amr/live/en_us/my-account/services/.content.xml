@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-20T07:01:52.439Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-05-20T07:20:21.742Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2019-05-20T07:04:43.111Z"
+        cq:lastRolledoutBy="cgeetha"
+        cq:template="/apps/gaming/templates/page-content-sticky-left-column"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Services"
+        jcr:uuid="64a564f8-2177-43e9-bc38-fbad5cfc689d"
+        sling:resourceType="gaming/components/structure/pageStickyLeftColumn"
+        navigationTheme="theme-dark"
+        pageTheme="theme-standard">
+        <sticky-body
+            cq:lastRolledout="{Date}2019-05-20T07:01:53.927Z"
+            cq:lastRolledoutBy="cgeetha"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <breadcrumb
+                cq:isCancelledForChildren="{Boolean}true"
+                cq:lastRolledout="{Date}2019-05-08T05:09:28.415Z"
+                cq:lastRolledoutBy="vsankarlal"
+                jcr:created="{Date}2019-05-08T05:08:43.928Z"
+                jcr:createdBy="vsankarlal"
+                jcr:lastModified="{Date}2019-05-08T05:10:46.949Z"
+                jcr:lastModifiedBy="vsankarlal"
+                jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/my-account/breadcrumb"
+                hideCurrent="false"
+                showHidden="false"
+                startLevel="5"/>
+        </sticky-body>
+    </jcr:content>
+</jcr:root>

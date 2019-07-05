@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2018-09-28T05:41:51.185-04:00"
+        cq:lastModifiedBy="vdonaboina"
+        cq:lastReplicated="{Date}2018-12-05T10:44:14.539Z"
+        cq:lastReplicatedBy="rtr"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.350-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="LED ILLUMINATION SDK"
+        jcr:uuid="9bcdd880-5277-4c26-9a1a-0c3fd2a3a4f8"
+        sling:resourceType="gaming/components/structure/eventPage"
+        navigationTheme="theme-dark"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2018-09-28T05:41:50.920-04:00"
+            jcr:lastModifiedBy="achase1"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Get access to all of the LED backlighting and RGB capabilities of Logitech G products, including implementation in &lt;a href=&quot;/content/gaming/amr/live/en_us/innovation/g-hub.html&quot;>Logitech G HUB Early Access&lt;/a>. Integrate profiles for custom key configurations, develop in-game effects, or mark keys to keep track of cooldowns on various commands"
+            location="8.98"
+            startDate="{Date}2018-07-02T00:00:00.000-04:00"
+            title="LED ILLUMINATION SDK">
+            <image
+                jcr:lastModified="{Date}2018-09-28T05:41:50.979-04:00"
+                jcr:lastModifiedBy="achase1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <logo
+                jcr:lastModified="{Date}2018-09-28T05:41:51.030-04:00"
+                jcr:lastModifiedBy="achase1"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Download for Windows"
+                    ctalink="https://www.logitechg.com/sdk/LED_SDK_9.00.zip"
+                    ctastyle="btn-large"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2018-09-28T05:41:51.134-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-09-28T05:41:51.185-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

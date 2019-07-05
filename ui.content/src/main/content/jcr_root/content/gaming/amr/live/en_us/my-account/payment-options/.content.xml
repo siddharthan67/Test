@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-15T07:24:24.184Z"
+        cq:lastModifiedBy="vsankarlal"
+        cq:lastReplicated="{Date}2019-05-20T07:19:17.668Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:lastRolledout="{Date}2019-05-20T07:02:51.286Z"
+        cq:lastRolledoutBy="cgeetha"
+        cq:template="/apps/gaming/templates/page-content-sticky-left-column"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[cq:LiveRelationship,mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Payment Options"
+        jcr:uuid="ecc61517-bb49-4cea-a3c5-12f8c283477e"
+        sling:resourceType="gaming/components/structure/pageStickyLeftColumn"
+        navigationTheme="theme-dark"
+        pageTheme="theme-standard"
+        securepage="true">
+        <sticky-body
+            cq:lastRolledout="{Date}2019-05-15T07:24:23.499Z"
+            cq:lastRolledoutBy="vsankarlal"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <copy_block
+                cq:lastRolledout="{Date}2019-05-15T07:24:24.168Z"
+                cq:lastRolledoutBy="vsankarlal"
+                jcr:created="{Date}2019-05-09T07:04:05.205Z"
+                jcr:createdBy="vsankarlal"
+                jcr:lastModified="{Date}2019-05-15T07:24:23.506Z"
+                jcr:lastModifiedBy="vsankarlal"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/copy-block"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-none-top"
+                textAlignment="center-text"
+                textColor="text-black"
+                textWidth="constrain-text-width"
+                titleSize="h2">
+                <cta
+                    cq:lastRolledout="{Date}2019-05-15T07:24:24.176Z"
+                    cq:lastRolledoutBy="vsankarlal"
+                    jcr:mixinTypes="[cq:LiveRelationship]"
+                    jcr:primaryType="nt:unstructured">
+                    <item0
+                        cq:lastRolledout="{Date}2019-05-15T07:24:24.776Z"
+                        cq:lastRolledoutBy="vsankarlal"
+                        jcr:mixinTypes="[cq:LiveRelationship]"
+                        jcr:primaryType="nt:unstructured"
+                        ctalabel="Digital River's Saved Payment Options"
+                        ctalink="/bin/cart/view?drNextUrl=/store/logib2c/DisplayAddEditPaymentPage"
+                        ctastyle="btn-large"
+                        openNewTab="true"/>
+                </cta>
+            </copy_block>
+        </sticky-body>
+    </jcr:content>
+</jcr:root>

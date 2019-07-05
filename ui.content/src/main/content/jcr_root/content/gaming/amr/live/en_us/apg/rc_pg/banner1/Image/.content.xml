@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:32.567Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Image Banner"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <image_banner
+                jcr:created="{Date}2019-02-11T10:19:33.239Z"
+                jcr:createdBy="rchittati"
+                jcr:lastModified="{Date}2019-02-18T05:33:32.259Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/image-banner"
+                backgroundAlgnmnt="bg-align-center"
+                backgroundAlgnmntMob="inherit"
+                backgroundAlgnmntTab="inherit"
+                backgroundColor="theme-light"
+                copyPosition="horizontal"
+                imgWidth="full"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-none-top"
+                themeForMob="inherit"
+                themeForTab="inherit">
+                <desktopBannerImg
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.317Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/ue/about-us/aboutus-hero-b-desktop.jpg"/>
+                <backgroundImg
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.343Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <tabletBannerImg
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.369Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <backgroundImgTab
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.393Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <mobileBannerImg
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.418Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <backgroundImgMob
+                    jcr:lastModified="{Date}2019-02-18T05:33:32.443Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+            </image_banner>
+            <feature_highlights
+                jcr:created="{Date}2019-02-11T10:22:01.755Z"
+                jcr:createdBy="rchittati"
+                jcr:lastModified="{Date}2019-02-18T05:33:32.467Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/feature-highlights">
+                <keyfeatures
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        featuretitle="HERO SENSOR"
+                        featurevalue="MAX 12,000 DPI"/>
+                    <item1
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        featuretitle="6 BUTTONS"
+                        featurevalue="FULLY PROGRAMMABLE"/>
+                    <item2
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        featuretitle="1 ms"
+                        featurevalue="REPORT RATE"/>
+                </keyfeatures>
+            </feature_highlights>
+        </par>
+    </jcr:content>
+</jcr:root>

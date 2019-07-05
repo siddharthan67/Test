@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-25T12:58:28.317Z"
+        cq:lastModifiedBy="mm2"
+        cq:lastReplicated="{Date}2019-04-25T13:10:39.759Z"
+        cq:lastReplicatedBy="mm2"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/teams/avengers,gaming:esports/games/starcraft,gaming:esports/games/csgo]"
+        cq:template="/apps/gaming/templates/page-team"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="dragontest"
+        jcr:uuid="4f38687e-45a1-405c-9430-3038af90cffe"
+        sling:resourceType="gaming/components/structure/pageteam"
+        gameTags="[gaming:esports/games/starcraft,gaming:esports/games/csgo]"
+        tagForTeam="[gaming:esports/teams/avengers]"
+        teamLogoRef="/content/dam/gaming/en-us/team-logos/lions.png"
+        teamName="DragonWarriors">
+        <image jcr:primaryType="nt:unstructured"/>
+        <ogimage jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

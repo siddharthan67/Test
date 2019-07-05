@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:28.003Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:tags="[gaming:esports/games/csgo,gaming:esports/games/hearthstone,gaming:esports/teams/rajesh1,gaming:esports/teams/nrg]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="playername"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="true"
+        gameTags="[gaming:esports/games/csgo,gaming:esports/games/hearthstone]"
+        robotsOptions="noindex, nofollow"
+        teamTags="[gaming:esports/teams/rajesh1,gaming:esports/teams/nrg]">
+        <image
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <player_information
+            jcr:lastModified="{Date}2019-02-18T05:33:27.801Z"
+            jcr:lastModifiedBy="sveluswamy"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            background="I am from USA. Tester."
+            bestmoments="Won 2019 championship"
+            country="USA"
+            dob="{Date}2005-04-05T13:01:00.000+05:30"
+            expandableBtnText="Button"
+            funfact="Fun Fact: No Fun Fact"
+            name="Player_Test_Techm"
+            realname="TECHM"
+            role="Tester">
+            <player_details
+                jcr:lastModified="{Date}2019-02-18T05:33:27.836Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details"
+                imageMap="\[poly(1615,993,1625,993,1625,983,1615,983,1615,993)&quot;quickview:sku=eqrusufle&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/running/eqrusufle&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/apparel/footwear/source/Fleet%20Shoe%20Bottom.jpg&quot;|&quot;&quot;|&quot;Hotspot 1&quot;][poly(1720,660,1730,660,1730,650,1720,650,1720,660)&quot;quickview:sku=116138647&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/wo/pants/faba_running_pants&amp;reservedVal_productThumbnail=http://localhost:4502/var/commerce/products/we-retail/en/wo/pants/faba_running_pants/image.thumbnail.319.png/1456183932115.png&quot;|&quot;&quot;|&quot;Hotspot 2&quot;][poly(1508,410,1518,410,1518,400,1508,400,1508,410)&quot;quickview:sku=30941863&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/running/basa_mp3_player&amp;reservedVal_productThumbnail=http://localhost:4502/var/commerce/products/we-retail/en/eq/running/basa_mp3_player/image.thumbnail.319.png/1456183997746.png&quot;|&quot;&quot;|&quot;Hotspot 3&quot;][poly(1647,265,1657,265,1657,255,1647,255,1647,265)&quot;quickview:sku=eqrusugor&amp;reservedVal_productPath=/var/commerce/products/we-retail/en/eq/running/eqrusugor&amp;reservedVal_productThumbnail=http://localhost:4502/content/dam/we-retail/en/products/activities/running/gomobile-source/GoMobile.jpg&quot;|&quot;&quot;|&quot;Hotspot 4&quot;]"
+                playerBannerDesc="This is Test Player 1">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T05:33:27.929Z"
+                    jcr:lastModifiedBy="sveluswamy"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/we-retail/en/activities/running/running_1.jpg"/>
+                <feature_video
+                    jcr:lastModified="{Date}2019-02-18T05:33:27.950Z"
+                    jcr:lastModifiedBy="sveluswamy"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/feature-video">
+                    <videos
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            videoDescription="Logitech Player Description"
+                            videoHost="youtube"
+                            videoId="WWxyEyiy3BY"
+                            videoMode="inline"
+                            videoPlayButtonPosition="center"
+                            videoTitle="Logitech Player"/>
+                    </videos>
+                </feature_video>
+            </player_details>
+            <playerImage
+                jcr:lastModified="{Date}2019-02-18T05:33:28.003Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/jaybird-components/athletes-jesse/jesse-3.jpg"/>
+        </player_information>
+    </jcr:content>
+</jcr:root>

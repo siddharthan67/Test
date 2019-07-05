@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-17T21:10:48.373Z"
+        cq:lastModifiedBy="bnedungadi"
+        cq:lastRolledout="{Date}2019-04-17T21:10:48.837Z"
+        cq:lastRolledoutBy="bnedungadi"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[cq:LiveRelationship]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="WS-MULTI-SINGLELANG"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            cq:lastRolledout="{Date}2019-04-17T21:10:43.477Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            cq:lastRolledout="{Date}2019-04-17T21:10:47.419Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            cq:lastRolledout="{Date}2019-04-17T21:10:47.883Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            cq:lastRolledout="{Date}2019-04-17T21:10:48.366Z"
+            cq:lastRolledoutBy="bnedungadi"
+            jcr:mixinTypes="[cq:LiveRelationship]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <copy_block
+                cq:lastRolledout="{Date}2019-04-17T21:10:48.837Z"
+                cq:lastRolledoutBy="bnedungadi"
+                jcr:created="{Date}2019-04-17T21:06:55.412Z"
+                jcr:createdBy="bnedungadi"
+                jcr:lastModified="{Date}2019-04-17T21:10:48.372Z"
+                jcr:lastModifiedBy="bnedungadi"
+                jcr:mixinTypes="[cq:LiveRelationship]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/copy-block"
+                description="My parent description"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-xl-top"
+                textAlignment="center-text"
+                textColor="text-white"
+                textWidth="constrain-text-width"
+                title="My parent page"
+                titleSize="h2"/>
+        </par>
+    </jcr:content>
+    <ws-multi-singlelang-1/>
+</jcr:root>

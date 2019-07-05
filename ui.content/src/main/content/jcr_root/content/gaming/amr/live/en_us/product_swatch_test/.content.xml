@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-05-08T10:47:18.970Z"
+        cq:lastModifiedBy="mm2"
+        cq:lastReplicated="{Date}2019-05-08T10:48:02.773Z"
+        cq:lastReplicatedBy="mm2"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="product_swatch_test"
+        jcr:uuid="eaa4c0f6-ff6a-418d-98d6-2779ee6b9097"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <simple_carousel
+                jcr:created="{Date}2019-05-08T10:24:24.547Z"
+                jcr:createdBy="mm2"
+                jcr:lastModified="{Date}2019-05-08T10:24:24.547Z"
+                jcr:lastModifiedBy="mm2"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/simple-carousel"
+                arrowStyle="standard"
+                autoPlay="true"
+                autoPlayDuration="{Long}4"
+                centerModeMobile="true"
+                centerModeTablet="true"
+                centerPaddingMobile="{Long}20"
+                centerPaddingTablet="{Long}20"
+                dotsPosition="below"
+                loops="true"
+                paddingBottom="padding-none-bottom"
+                paddingTop="padding-none-top"
+                showAllCards="true"
+                showArrows="true"
+                showPaginationDots="true"
+                slidesPerPageDesktop="{Long}3"
+                slidesPerPageMobile="{Long}1"
+                slidesPerPageTablet="{Long}1"
+                theme="theme-light"
+                typeOfEvent="event">
+                <par
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/simple-carousel/parsys">
+                    <product_swatch
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-swatch"
+                        productPath="/content/gaming/amr/live/en_us/products/gaming-keyboards"
+                        title="Gaming Keyboards">
+                        <productImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/test_assets/pro-keyboard-hero-1.png"/>
+                        <hoverImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/pt/gaming/gaming-keyboards/g512-mechanical-gaming-keyboard/920-008949/g513-backlit-mechanical-gaming-keyboard47.png"/>
+                        <cta jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Explore Gaming Keyboards"
+                                ctalink="/content/gaming/amr/live/en_us/products/gaming-keyboards"
+                                openNewTab="false"/>
+                        </cta>
+                    </product_swatch>
+                    <product_swatch_1980508018
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-swatch"
+                        productPath="/content/gaming/amr/live/en_us/products/gaming-mice"
+                        title="Gaming Mice">
+                        <productImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/gaming/mice/g402-hyperion-fury-fps-gaming-mouse/910-004068/g402-hyperion-fury-ultra-fast-fps-gaming-mouse31.png"/>
+                        <hoverImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/gaming/mice/g402-hyperion-fury-fps-gaming-mouse/910-004068/g402-hyperion-fury-ultra-fast-fps-gaming-mouse35.png"/>
+                        <cta jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Explore Gaming Mice"
+                                ctalink="/content/gaming/amr/live/en_us/products/gaming-mice"
+                                openNewTab="false"/>
+                        </cta>
+                    </product_swatch_1980508018>
+                    <product_swatch_1194119657
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-swatch"
+                        productPath="/content/gaming/amr/live/en_us/products/gaming-audio"
+                        title="Gaming Audio">
+                        <productImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/gaming/audio-video/g433-7-1-surround-sound-gaming-headset/981-000670/g433-surround-gaming-headset4.png"/>
+                        <hoverImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/plp-audio/search-audio-plp.png"/>
+                        <cta jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Explore Gaming Audio"
+                                ctalink="/content/gaming/amr/live/en_us/products/gaming-audio"
+                                openNewTab="false"/>
+                        </cta>
+                    </product_swatch_1194119657>
+                    <product_swatch_427610349
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-swatch"
+                        productPath="/content/gaming/amr/live/en_us/products/gaming-mouse-pads"
+                        title="Gaming Mousepad">
+                        <productImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/pt/gaming/mice/g640-cloth-gaming-mouse-pad/g640-large-cloth-gaming-mouse-pad13.png"/>
+                        <hoverImage
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/products/pt/gaming/mice/solomid-cloth-gaming-mouse-pad/943-000078/g640-gaming-mouse-pad4.jpg"/>
+                        <cta jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                ctalabel="Explore Gaming Mouse Pads"
+                                ctalink="/content/gaming/amr/live/en_us/products/gaming-mouse-pads"
+                                openNewTab="false"/>
+                        </cta>
+                    </product_swatch_427610349>
+                </par>
+            </simple_carousel>
+        </par>
+    </jcr:content>
+</jcr:root>

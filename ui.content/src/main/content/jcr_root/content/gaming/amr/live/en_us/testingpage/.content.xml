@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/do-not-translate"
+        cq:lastModified="{Date}2019-04-08T07:14:37.107Z"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2019-02-26T10:45:39.286Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="testing-page"
+        jcr:uuid="226a78ca-6c02-4d0c-99cb-1d8b14318f1a"
+        sling:resourceType="gaming/components/structure/page"
+        navigationTheme="theme-dark"
+        pageTheme="theme-standard"
+        robotsOptions="noindex, nofollow">
+        <logo
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                cq:isCancelledForChildren="{Boolean}true"
+                jcr:mixinTypes="[cq:LiveRelationship,cq:LiveSyncCancelled]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/msm/components/ghost"/>
+            <featured_product_lis
+                jcr:created="{Date}2019-04-08T07:13:53.561Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-04-08T07:14:37.105Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/featured-product-list"
+                featureTag="[gaming:series/g,gaming:series/pro]"
+                productCategoryPath="/content/gaming/amr/live/en_us/products/gaming-mice"
+                title="Testing"/>
+        </par>
+    </jcr:content>
+</jcr:root>

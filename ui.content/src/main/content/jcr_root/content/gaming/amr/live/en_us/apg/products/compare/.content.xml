@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-18T06:03:12.311Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="compare"
+        jcr:uuid="18a9dde5-1b81-4430-8045-a2c1e0f1f087"
+        sling:resourceType="gaming/components/structure/page"
+        hideInNav="true"
+        navigationTheme="theme-dark">
+        <logo
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <compare_products
+                jcr:created="{Date}2018-05-21T19:24:54.361-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T06:03:12.310Z"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/compare-products"/>
+        </par>
+    </jcr:content>
+</jcr:root>

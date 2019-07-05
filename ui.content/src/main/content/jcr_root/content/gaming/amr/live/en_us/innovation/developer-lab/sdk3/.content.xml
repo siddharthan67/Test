@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-15T10:48:49.174Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2018-12-05T10:40:18.426Z"
+        cq:lastReplicatedBy="rtr"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="sdk3"
+        jcr:uuid="673a24a1-6c27-447c-a4c6-b6fbe6145934"
+        sling:resourceType="gaming/components/structure/eventPage"
+        offTime="{Date}2018-08-02T16:06:00.000-07:00">
+        <event
+            jcr:lastModified="{Date}2019-02-15T10:48:48.525Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Arx Control introduces second screen capability that allows iOS and Android mobile devices to display in-game info, vital system statistics and more. The associated SDK enables integration of your code with the Arx Control app."
+            text="&lt;ul>&#xa;&lt;li>&lt;p>Fixed a bug in Java to make the JNI compatible with both x64 and x86.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ul>&#xa;"
+            textIsRich="true"
+            title="ARX CONTROL SDK">
+            <image
+                jcr:lastModified="{Date}2019-02-15T10:48:48.706Z"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-15T10:48:48.814Z"
+                jcr:lastModifiedBy="msohn"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured">
+                <item1
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="Download for Windows"
+                    ctalink="http://gaming.logitech.com/sdk/ARX_8.87.zip"
+                    ctastyle="btn-large ghost"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2018-08-15T16:35:25.858-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2018-08-15T16:35:25.858-04:00"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

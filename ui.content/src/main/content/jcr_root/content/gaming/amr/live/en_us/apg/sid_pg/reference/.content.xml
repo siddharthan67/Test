@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:25.631Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Reference"
+        sling:resourceType="gaming/components/structure/page">
+        <logo
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <reference
+                jcr:created="{Date}2019-01-21T12:32:10.230Z"
+                jcr:createdBy="cgeetha"
+                jcr:lastModified="{Date}2019-02-18T05:33:25.630Z"
+                jcr:lastModifiedBy="cgeetha"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/reference"
+                referencePath="/content/gaming/amr/live/en_us/innovation/_jcr_content/par/banner_carousel"/>
+        </par>
+    </jcr:content>
+</jcr:root>

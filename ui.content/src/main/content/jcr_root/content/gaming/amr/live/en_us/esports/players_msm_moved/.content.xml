@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-03-04T13:27:13.288Z"
+        cq:lastModifiedBy="ssatheshkumar"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:32.917-04:00"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Players"
+        jcr:uuid="062a7baf-1067-48d0-9b3b-3c4ac302d766"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        navigationTheme="theme-dark"
+        robotsOptions="noindex, nofollow"/>
+</jcr:root>

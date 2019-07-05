@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-18T05:56:13.772Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:redirectTarget="https://www.logitech.com/product/speaker-system-z623"
+        cq:tags="[gaming:specifications,gaming:Features/subwoofer,gaming:Features/volume-controls,gaming:category/gaming-audio,gaming:Features/aux-mp3-input,gaming:specifications/multi-channel-sound,gaming:platform/mac,gaming:platform/pc]"
+        cq:template="/apps/gaming/templates/product-display-page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-07-25T08:23:23.503-04:00"
+        jcr:lastModifiedBy="nelangovan"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Z623-Speaker-System-with-Subwoofer"
+        jcr:uuid="1d7eb1b8-2845-40ed-bc16-13b401566099"
+        sling:resourceType="gaming/components/structure/productDisplayPage"
+        features="[gaming:Features/volume-controls,gaming:Features/aux-mp3-input,gaming:Features/subwoofer,gaming:platform/mac,gaming:platform/pc]"
+        hideInNav="true"
+        logi.masterPage="/content/gaming/amr/live/en_us/catalog/gaming-audio/speaker-system-z623"
+        navigationTheme="theme-dark"
+        navTitle="Z623-Speaker-System-with-Subwoofer"
+        redirectTarget="https://www.logitech.com/product/speaker-system-z623"
+        searchTitle="Speaker System Z623"
+        seoDescription="This THX-Certified 2.1 PC speaker system delivers powerful sound with 200 watts of power for big, bold audio. "
+        seoPageTitle="Speaker System Z623 - Logitech"
+        specifications="\{&quot;description&quot;:&quot;2.1&quot;,&quot;specificationTag&quot;:&quot;gaming:specifications/multi-channel-sound&quot;}">
+        <par
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <product_banner_copy_
+                jcr:lastModified="{Date}2019-02-18T05:56:04.590Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/product-banner"
+                bgAlignment="center"
+                bgMobAlignment="inherit"
+                bgTabAlignment="inherit"
+                bgTheme="kohle"
+                billboardOffX="49"
+                billboardOffY="-13"
+                billboardScale="74"
+                copyPosition="left"
+                copyPositionY="-105"
+                imgOffX="120"
+                imgOffXMob="0"
+                imgOffXTab="0"
+                imgOffY="105"
+                imgOffYMob="95"
+                imgOffYTab="95"
+                imgWidth="10"
+                openNewTab="true"
+                openNewTabtwo="true"
+                prodImgAlignment="center"
+                productDesc="SPEAKER SYSTEM WITH SUBWOOFER"
+                productTitle="Z623">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T05:56:04.735Z"
+                    jcr:lastModifiedBy="mtani"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/gaming/en/products/z623/z623-hero-2x.png"/>
+            </product_banner_copy_>
+            <section_copy_copy_co
+                jcr:created="{Date}2018-04-10T16:13:20.078-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T05:56:04.828Z"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/section"
+                bgColor="bg-gray5"
+                bgImgAlign="bg-align-center"
+                bgImgAlignMob="inherit"
+                bgImgAlignTab="inherit"
+                extraClass="padding-large-top padding-large-bottom"
+                hasContainer="true"
+                sectionSize="size-50vh"
+                sectionSizeMobile="inherit"
+                sectionSizeTablet="inherit">
+                <sectionsubpar
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/parsys">
+                    <feature_highlights
+                        jcr:created="{Date}2018-05-07T13:59:07.712-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:05.194Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/feature-highlights">
+                        <keyfeatures
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Certified"
+                                featurevalue="THX"/>
+                            <item2
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Peak Power"
+                                featurevalue="400 Watts"/>
+                            <item3
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="Stereo Sound"
+                                featurevalue="2.1"/>
+                        </keyfeatures>
+                    </feature_highlights>
+                    <testimonial_copy
+                        jcr:created="{Date}2018-04-25T19:38:26.759-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:05.632Z"
+                        jcr:lastModifiedBy="ajagannathan"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/testimonial"
+                        ctalink="#product-tech-specs"
+                        ctatext="SEE ALL SPECS"
+                        ctatype="link"
+                        fontSize="auto"
+                        newtab="false">
+                        <logoImage
+                            jcr:lastModified="{Date}2019-02-18T05:56:05.727Z"
+                            jcr:lastModifiedBy="ajagannathan"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </testimonial_copy>
+                </sectionsubpar>
+            </section_copy_copy_co>
+            <media_grid_copy_copy
+                jcr:created="{Date}2018-04-10T18:35:39.077-04:00"
+                jcr:createdBy="ajagannathan"
+                jcr:lastModified="{Date}2019-02-18T05:56:05.820Z"
+                jcr:lastModifiedBy="ajagannathan"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/media-grid"
+                theme="theme-dark"
+                title="KEY FEATURES">
+                <media_tiles
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/parsys">
+                    <media_tile
+                        jcr:created="{Date}2018-04-10T18:36:05.873-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:06.096Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="THX CERTIFIED AUDIO QUALITY"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        text="&lt;p>With 400 Watts Peak/200 Watts RMS power this 2.1 speaker system delivers crisp, clear audio. Connect up to three compatible devices via the 3.5mm and RCA inputs, and easily access all controls on the right satellite speaker.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.234Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/Z623_Feature_1 @2x.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.326Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile>
+                    <media_tile_654806920
+                        jcr:created="{Date}2018-04-10T18:46:17.300-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:06.409Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="THX CERTIFIED AUDIO QUALITY"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        text="&lt;p>&lt;br>&#xa;&lt;br>&#xa;400 Watts of Peak power / 200 Watts RMS power deliver powerful and balanced audio. This 2.1 system immerses you in crisp sound and thundering bass whether you’re listening to music, watching an action-packed movie or playing your favorite video game.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.545Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/Z623_Feature_2 @2x.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.630Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_654806920>
+                    <media_tile_777233576
+                        jcr:created="{Date}2018-04-10T18:50:27.290-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:06.704Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="BOOMING BASS"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        text="&lt;p>&lt;br>&#xa;With the Z623 you won’t just hear the audio, you’ll feel it. The 7 in subwoofer pumps out XXX Watts / 130 Watts of low end frequencies to fill your space with booming bass. Games and movies come alive with powerful sound that you can hear and feel.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.818Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/Z623_Feature_3 @2x.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:56:06.895Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_777233576>
+                    <media_tile_1548322686
+                        jcr:created="{Date}2018-04-10T19:02:10.310-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:06.972Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="ULTIMATE VERSATILITY"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        text="&lt;p>&lt;br>&#xa;&lt;br>&#xa;Supports multiple inputs simultaneously including 3.5 mm and RCA inputs. Connect up to three compatible devices such as your game console, television and computer. No need to disconnect when switching between audio sources.&lt;br>&#xa;&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:56:07.100Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/z623/z623-feature-4-2x.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:56:07.235Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_1548322686>
+                    <media_tile_154832268
+                        jcr:created="{Date}2018-04-10T19:02:10.310-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:07.274Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/media-tile"
+                        featureTitle="EASY CONTROL AND HEADPHONE READY"
+                        featureType="image"
+                        minifeature="hideminifeature"
+                        text="&lt;p>&lt;br>&#xa;Access power, volume, bass, headphone jack, and auxiliary jack on the right satellite speaker. When you want to listen privately, just plug in your headphones.&lt;/p>&#xa;"
+                        textIsRich="true"
+                        videoHost="youtube"
+                        videoMode="inline"
+                        videoPlayButtonPosition="center">
+                        <image
+                            jcr:lastModified="{Date}2019-02-18T05:56:07.500Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            fileReference="/content/dam/gaming/en/products/Z623_Gallery_4 @2x.png"/>
+                        <thumbImg
+                            jcr:lastModified="{Date}2019-02-18T05:56:07.560Z"
+                            jcr:lastModifiedBy="mtani"
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </media_tile_154832268>
+                </media_tiles>
+            </media_grid_copy_copy>
+            <tech_specifications_
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/tech-specification">
+                <product_par
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/tech-specification/parsys">
+                    <product_information
+                        jcr:lastModified="{Date}2019-02-18T05:56:07.784Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/product-information"
+                        infotitle="SPECIFICATIONS">
+                        <subproduct_par
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="wcm/foundation/components/parsys">
+                            <list_information_696
+                                jcr:created="{Date}2018-04-23T14:42:25.114-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:08.068Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="PACKAGE CONTENTS">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Two satellite speakers "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Subwoofer "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="3.5 mm audio input cable "/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="User documentation"/>
+                                </features>
+                            </list_information_696>
+                            <list_information_480
+                                jcr:created="{Date}2018-04-23T14:25:42.082-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:08.542Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="SYSTEM REQUIREMENTS"
+                                textIsRich="true">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Works with any device with either a headphone jack (3.5mm) or RCA inputs"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Television"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text=" Computer "/>
+                                    <item4
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Smartphone "/>
+                                    <item5
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Tablet "/>
+                                    <item6
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Music player "/>
+                                    <item7
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="DVD player"/>
+                                    <item8
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text=" Blu-ray™ player"/>
+                                    <item9
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text=" PlayStation® "/>
+                                    <item10
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Xbox® "/>
+                                    <item11
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Wii™"/>
+                                </features>
+                            </list_information_480>
+                            <list_information_486_60956619
+                                jcr:created="{Date}2018-04-23T19:42:48.798-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:09.863Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Control Console">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth: "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="11.5 in (293 mm) x 11.1 in (281 mm) "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 1.0 lb    (.50 Kg)"/>
+                                </features>
+                            </list_information_486_60956619>
+                            <list_information_458
+                                jcr:created="{Date}2018-04-16T14:56:35.232-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:10.301Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="PHYSICAL SPECIFICATIONS"/>
+                            <list_information
+                                jcr:created="{Date}2018-04-23T19:39:39.765-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:10.396Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Subwoofer">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="11.5 in (293 mm) x 11.1 in (281 mm) x 12.6 in (319 mm)"/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 19.8 lbs (9 Kg"/>
+                                </features>
+                            </list_information>
+                            <list_information_140
+                                jcr:created="{Date}2018-04-23T14:27:18.406-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:10.783Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Satellites">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth:"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text=" 6.5 in (166.3 mm)x 3.9 in (100.3 mm) x 3.7 in (93.5 mm) "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 2.0 lbs (890 g)"/>
+                                </features>
+                            </list_information_140>
+                            <list_information_486417166
+                                jcr:created="{Date}2018-04-23T19:42:48.798-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:11.205Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Center Channel ">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth: "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="3.9 in (100.3 mm)x 6.5 in (166.3 mm) x 3.7 in (93.5 mm) "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 2.0 lbs    (.89 Kg)"/>
+                                </features>
+                            </list_information_486417166>
+                            <list_information_486
+                                jcr:created="{Date}2018-04-23T19:42:48.798-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:11.654Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Control Console">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth: "/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="11.5 in (293 mm) x 11.1 in (281 mm) "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: 1.0 lb    (.50 Kg)"/>
+                                </features>
+                            </list_information_486>
+                            <list_information_486_1439437918
+                                jcr:created="{Date}2018-04-23T19:42:48.798-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:12.030Z"
+                                jcr:lastModifiedBy="mtani"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                featuretitle="Wireless Remote ">
+                                <features
+                                    jcr:mixinTypes="[]"
+                                    jcr:primaryType="nt:unstructured">
+                                    <item1
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Height x Width x Depth:"/>
+                                    <item2
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text=" 4.4 in (111 mm) x 1.7 in (43 mm) x 0.7 in (18.9 mm) "/>
+                                    <item3
+                                        jcr:mixinTypes="[]"
+                                        jcr:primaryType="nt:unstructured"
+                                        text="Weight: (w/ Battery)    0.1 lb (67 g)"/>
+                                </features>
+                            </list_information_486_1439437918>
+                            <list_information_198
+                                jcr:created="{Date}2018-04-23T14:29:28.501-04:00"
+                                jcr:createdBy="ajagannathan"
+                                jcr:lastModified="{Date}2019-02-18T05:56:12.412Z"
+                                jcr:lastModifiedBy="olee"
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="gaming/components/content/list-information"
+                                displayPartNumber="true"
+                                displayWarrantyInformation="true"
+                                textIsRich="true"/>
+                        </subproduct_par>
+                        <keyfeatures
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="THX"
+                                featurevalue="Certified"/>
+                            <item2
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="400 Watts"
+                                featurevalue="Peak Power"/>
+                            <item3
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                featuretitle="2.1"
+                                featurevalue="Stereo Sound"/>
+                        </keyfeatures>
+                    </product_information>
+                    <list_information_486
+                        jcr:created="{Date}2018-04-23T19:42:48.798-04:00"
+                        jcr:createdBy="ajagannathan"
+                        jcr:lastModified="{Date}2019-02-18T05:56:12.737Z"
+                        jcr:lastModifiedBy="mtani"
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="gaming/components/content/list-information"
+                        featuretitle="Technical Specifications"
+                        subfeaturetitle="  ">
+                        <features
+                            jcr:mixinTypes="[]"
+                            jcr:primaryType="nt:unstructured">
+                            <item1
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text="Total watts : 200 W "/>
+                            <item2
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text=" Subwoofer: 130 W  "/>
+                            <item3
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text="Satellites: 2 x 35W  "/>
+                            <item4
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text="3.5mm input: 1  "/>
+                            <item5
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text="RCA input: 1  "/>
+                            <item6
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text=" Headphone jack: 1"/>
+                            <item7
+                                jcr:mixinTypes="[]"
+                                jcr:primaryType="nt:unstructured"
+                                text="Controls: Power, volume and bass controls on right speaker"/>
+                        </features>
+                    </list_information_486>
+                </product_par>
+            </tech_specifications_>
+            <buy_module
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/buy-module"/>
+            <recommended_for_you
+                jcr:lastModified="{Date}2019-02-18T05:56:13.388Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="recommended_for_you"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/gaming-audio/speaker-system-z906"
+                theme="theme-default"
+                title="RECOMMENDED FOR YOU"/>
+            <you_might_also_like_
+                jcr:lastModified="{Date}2019-02-18T05:56:13.438Z"
+                jcr:lastModifiedBy="mtani"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/recommendation"
+                divId="you_might_also_like"
+                product1Path="/content/gaming/amr/live/en_us/apg/products/gaming-audio/g633-7-1-surround-sound-gaming-headset"
+                product2Path="/content/gaming/amr/live/en_us/apg/products/gaming-audio/g933-7-1-surround-sound-gaming-headset"
+                theme="theme-default"
+                title="YOU MIGHT ALSO LIKE"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2019-02-18T05:56:13.545Z"
+            jcr:lastModifiedBy="nelangovan"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-18T05:56:13.616Z"
+            jcr:lastModifiedBy="nelangovan"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <specifications
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured">
+            <item0
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                description="2.1"
+                specificationTag="gaming:specifications/multi-channel-sound"/>
+        </specifications>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-02-18T05:33:46.283Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:tags="[gaming:esports/games/golf,gaming:esports/teams/rajesh1]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:mixinTypes="[]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Player page"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="true"
+        gameTags="[gaming:esports/games/golf]"
+        teamTags="[gaming:esports/teams/rajesh1]">
+        <player_information
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured">
+            <player_details
+                jcr:lastModified="{Date}2019-02-18T05:33:46.145Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details"
+                playerBannerDesc="Testing  player details information">
+                <image
+                    jcr:lastModified="{Date}2019-02-18T05:33:46.216Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    fileReference="/content/dam/logi-gaming/en/banners/banner-11.jpg"/>
+                <products
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:mixinTypes="[]"
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/qaplayground/gaming-mice/g402-hyperion-fury-fps-gaming-mouse"
+                        productQuote="Testing complete Player details"/>
+                </products>
+            </player_details>
+        </player_information>
+    </jcr:content>
+</jcr:root>

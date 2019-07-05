@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-03-04T13:41:03.690Z"
+        cq:lastModifiedBy="ssatheshkumar"
+        cq:lastReplicated="{Date}2019-03-05T19:19:26.710Z"
+        cq:lastReplicatedBy="bnedungadi"
+        cq:lastReplicationAction="Activate"
+        cq:tags="[gaming:esports/games/battlefield,gaming:esports/teams/rajesh1]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="player rajesh"
+        jcr:uuid="9651a021-036d-48e6-8399-ec3426ce58dd"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="true"
+        gameTags="[gaming:esports/games/battlefield]"
+        teamTags="[gaming:esports/teams/rajesh1]">
+        <player_information
+            jcr:lastModified="{Date}2019-02-22T11:14:58.322Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            country="india"
+            dob="{Date}2019-02-13T13:53:00.000+05:30"
+            funfact="nothing"
+            name="Siddharthan"
+            realname="Siddharth"
+            role="tester">
+            <player_details
+                jcr:lastModified="{Date}2019-02-22T09:33:27.768Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details">
+                <image
+                    jcr:lastModified="{Date}2019-02-22T09:33:27.768Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"/>
+                <feature_video
+                    jcr:lastModified="{Date}2019-02-28T12:48:53.081Z"
+                    jcr:lastModifiedBy="ssatheshkumar"
+                    jcr:mixinTypes="[]"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="gaming/components/content/feature-video">
+                    <videos jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            videoDescription="This is a sample description"
+                            videoHost="youtube"
+                            videoId="HPY7l0N4jIA"
+                            videoMode="inline"
+                            videoPlayButtonPosition="center"
+                            videoTitle="Video Title"/>
+                    </videos>
+                </feature_video>
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabelOne="testing_player details"
+                        ctaLinkOne="/content/gaming/amr/lang/en/esports/tsm"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-mouse-pads/g240-cloth-gaming-mouse-pad"
+                        productQuote="testing inprogress "/>
+                    <item1
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-mice/g603-lightspeed-wireless-gaming-mouse"
+                        productQuote="Second product"/>
+                    <item2
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/en/products/gaming-keyboards/g910-orion-rgb-gaming-keyboard"
+                        productQuote="sample 3"/>
+                    <item3
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/en/products/gamepads/f310-gamepad"/>
+                    <item4
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/en/products/driving/g27-racing-wheel"
+                        productQuote="sample 4"/>
+                    <item5
+                        jcr:primaryType="nt:unstructured"
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/en/products/gaming-mice/g402-hyperion-fury-fps-gaming-mouse"
+                        productQuote="sample5"/>
+                </products>
+            </player_details>
+            <playerImage
+                jcr:lastModified="{Date}2019-02-22T11:14:58.643Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/esports/players/seung-hyun-seong.png"/>
+        </player_information>
+    </jcr:content>
+</jcr:root>

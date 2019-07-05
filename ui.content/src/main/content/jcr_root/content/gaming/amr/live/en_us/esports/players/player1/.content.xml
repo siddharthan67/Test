@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-04-16T09:40:33.597Z"
+        cq:lastModifiedBy="rchittati"
+        cq:tags="[gaming:esports/games/hearthstone,gaming:esports/teams/nrg]"
+        cq:template="/apps/gaming/templates/page-player"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Player1"
+        jcr:uuid="08025b07-f897-44f8-9739-77c50b74d5a9"
+        sling:resourceType="gaming/components/structure/pageplayer"
+        featurePlayer="false"
+        gameTags="[gaming:esports/games/hearthstone]"
+        teamTags="[gaming:esports/teams/nrg]">
+        <player_information
+            jcr:lastModified="{Date}2019-04-15T12:49:59.851Z"
+            jcr:lastModifiedBy="rchittati"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/player-information"
+            background="Player of the Year "
+            bestmoments="getting points to the team"
+            country="Norway"
+            dob="{Date}1985-10-19T00:00:00.000+05:30"
+            funfact="This is a sample fun fact"
+            name="BJERGSEN"
+            realname="SØREN BJERG"
+            role="Gamer">
+            <playerImage
+                jcr:lastModified="{Date}2019-04-15T12:49:59.851Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/esports/players/hong-haoxuan.png"/>
+            <longtermattributes jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    key="NRG eSports is a Brazilian multigaming organization."/>
+            </longtermattributes>
+            <socialLinks jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    faClass="facebook"
+                    link="https://www.facebook.com/"
+                    newTab="true"/>
+                <item1
+                    jcr:primaryType="nt:unstructured"
+                    faClass="instagram"
+                    link="https://www.instagram.com/Bjergsen/"
+                    newTab="true"/>
+                <item2
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitter"
+                    link="https://twitter.com/Bjergsen"
+                    newTab="true"/>
+                <item3
+                    jcr:primaryType="nt:unstructured"
+                    faClass="twitch-no-status"
+                    link="https://www.twitch.tv/tsm_bjergsen"
+                    newTab="true"/>
+            </socialLinks>
+            <player_details
+                jcr:lastModified="{Date}2019-04-16T09:40:33.556Z"
+                jcr:lastModifiedBy="rchittati"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="gaming/components/content/player-details"
+                playerBannerDesc="TSM (T-S-M) is an esports team headquartered in Los Angeles, California, founded by CEO Andy Dinh in 2009 when he was 17.">
+                <image
+                    jcr:lastModified="{Date}2019-04-16T09:40:33.556Z"
+                    jcr:lastModifiedBy="rchittati"
+                    jcr:primaryType="nt:unstructured"/>
+                <products jcr:primaryType="nt:unstructured">
+                    <item0
+                        jcr:primaryType="nt:unstructured"
+                        ctaLabelOne="Label "
+                        ctaLinkOne="http://www.logitechg.com  "
+                        ctaStyleOne="btn-link"
+                        ctaStyleTwo="btn-link"
+                        openNewTabOne="true"
+                        openNewTabTwo="true"
+                        productLink="/content/gaming/amr/live/en_us/products/gaming-mouse-pads/g440-hard-gaming-mouse-pad"
+                        productQuote="G903 is our most advanced and fully featured gaming mouse. Featuring 1 ms LIGHTSPEED wireless, G903 delivers competition-grade performance, responsiveness and accuracy. "/>
+                </products>
+            </player_details>
+        </player_information>
+    </jcr:content>
+</jcr:root>

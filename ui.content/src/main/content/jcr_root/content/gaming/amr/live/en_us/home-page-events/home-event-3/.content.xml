@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-02-15T10:50:44.035Z"
+        cq:lastModifiedBy="cgeetha"
+        cq:lastReplicated="{Date}2019-02-15T09:36:28.032Z"
+        cq:lastReplicatedBy="cgeetha"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.854-04:00"
+        jcr:lastModifiedBy="msohn"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Brazil Gameshow"
+        jcr:uuid="ad4406b2-9f37-43e9-9ed3-95e50697c719"
+        sling:resourceType="gaming/components/structure/eventPage"
+        hideInNav="true"
+        robotsOptions="noindex, nofollow">
+        <event
+            jcr:lastModified="{Date}2019-02-07T11:42:07.752Z"
+            jcr:lastModifiedBy="cgeetha"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="Head to South America in October to meet the creators and play the games. We'll see you there!"
+            endDate="{Date}2019-10-14T09:30:00.000+05:30"
+            location="Sao Paulo, Brazil"
+            startDate="{Date}2019-10-10T09:30:00.000+05:30"
+            title="Brazil Gameshow">
+            <image
+                jcr:lastModified="{Date}2019-02-07T11:42:07.752Z"
+                jcr:lastModifiedBy="cgeetha"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/gaming/en/events/events-brazill-gameshow.png"/>
+            <logo
+                jcr:lastModified="{Date}2019-02-07T11:42:07.752Z"
+                jcr:lastModifiedBy="cgeetha"
+                jcr:mixinTypes="[]"
+                jcr:primaryType="nt:unstructured"/>
+            <cta jcr:primaryType="nt:unstructured">
+                <item0
+                    jcr:primaryType="nt:unstructured"
+                    ctalabel="FIND OUT MORE"
+                    ctalink="http://www.brasilgameshow.com.br/"
+                    ctastyle="cta-forward"
+                    openNewTab="true"/>
+            </cta>
+        </event>
+        <image
+            jcr:lastModified="{Date}2019-02-15T10:50:43.836Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+        <ogimage
+            jcr:lastModified="{Date}2019-02-15T10:50:44.035Z"
+            jcr:lastModifiedBy="msohn"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

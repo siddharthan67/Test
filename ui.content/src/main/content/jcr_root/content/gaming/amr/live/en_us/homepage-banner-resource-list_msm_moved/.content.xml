@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[]"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2019-04-17T04:29:10.218Z"
+        cq:lastModifiedBy="bnedungadi"
+        cq:template="/apps/gaming/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:lastModified="{Date}2018-08-06T13:45:34.912-04:00"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="homepage banner resource list "
+        jcr:uuid="dc34588a-9b81-4a10-b084-3de8b88670a0"
+        sling:resourceType="gaming/components/structure/page"
+        hideInNav="true"
+        navigationTheme="theme-dark"
+        robotsOptions="noindex, nofollow">
+        <logo
+            jcr:lastModified="{Date}2019-02-15T10:50:58.147Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/logo"/>
+        <title
+            jcr:lastModified="{Date}2019-02-15T10:50:58.225Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/title"/>
+        <topnav
+            jcr:lastModified="{Date}2019-02-15T10:50:58.420Z"
+            jcr:mixinTypes="[]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/structure/topnav"/>
+    </jcr:content>
+</jcr:root>

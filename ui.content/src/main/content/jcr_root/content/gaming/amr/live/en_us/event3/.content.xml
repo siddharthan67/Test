@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2019-06-20T14:15:29.989Z"
+        cq:lastModifiedBy="sveluswamy"
+        cq:lastReplicated="{Date}2019-06-20T15:00:41.671Z"
+        cq:lastReplicatedBy="sveluswamy"
+        cq:lastReplicationAction="Activate"
+        cq:template="/apps/gaming/templates/page-event"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Event3"
+        jcr:uuid="91361eb7-2cb5-42aa-ac86-a78bfac83aca"
+        sling:resourceType="gaming/components/structure/eventPage">
+        <event
+            jcr:lastModified="{Date}2019-06-20T14:15:29.604Z"
+            jcr:lastModifiedBy="sveluswamy"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="gaming/components/content/event"
+            description="This is event 3"
+            endDate="{Date}2019-10-18T19:45:00.000+05:30"
+            location="Brooklyn"
+            startDate="{Date}2019-08-09T19:45:00.000+05:30"
+            title="Event3">
+            <image
+                jcr:lastModified="{Date}2019-06-20T14:15:29.604Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:primaryType="nt:unstructured"
+                fileReference="/content/dam/products/gaming/gaming-audio/speaker-system-z623/980-000442/speaker-system-z6236980-000403.png"/>
+            <logo
+                jcr:lastModified="{Date}2019-06-20T14:15:29.604Z"
+                jcr:lastModifiedBy="sveluswamy"
+                jcr:primaryType="nt:unstructured"/>
+        </event>
+    </jcr:content>
+</jcr:root>
