@@ -1,7 +1,0 @@
-"","var","z","2","N",""
-"response","rest_get","","http://ec2wwwr01.idc.logitech.com/feeds/pim/private/index.cfm?site=gaming&country=us","Y",""
-"","printMessage","","{V_response_RESPONSE_FILE}","",""
-"","technicalSpecifications","TechnicalSpecification.Sheet1","{V_response_RESPONSE_FILE}","N",""
-"browserDetails","executeTC_MultipleTestData","TechnicalSpecification.Sheet1","ReusableBlocks1.TechnicalSpecification","N",""
-"","","",""," ",""
-"","","",""," ",""

@@ -1,6 +1,0 @@
-"","printMessage","","Test Scenario : SITEMAP COMPONENT SCENARIOS START","","",
-"browserDetails","executeTC_MultipleTestData","GamingTestData.GamingBrowserEnvDetails","ReusableBlocks\Sitemap.Sitemap","N","",
-"","printMessage","","Test Scenario : SITEMAP COMPONENT DEVICES START","","",
-"devices","executeTC_MultipleTestData","GamingTestData.GamingDeviceEnvDetails","ReusableBlocks\Sitemap.SitemapDevices","N","",
-"","quitBrowser","","","N","",
-"","","",""," ","",

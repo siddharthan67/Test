@@ -1,6 +1,7 @@
 "","printMessage","","************************ Launching the URL ***********************","Y",""
 " ","var","authoredPage","""en-us/products/farm-simulator-game-bundle1.html""","N",""
-" ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
+"","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
+"// ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
 "","waitForPageLoad","","3","N",""
 "","pageRefresh","","","N",""
 "//","getJSAndNetworkErrors","","","N",""

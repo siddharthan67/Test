@@ -1,5 +1,5 @@
 " ","var","authoredPage","""content/gaming/amr/live/en_us.html?wcmmode=disabled"""," N"," "
-" ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}"," N"," "
+"","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","Y",""
 "","pageRefresh","",""," N",""
 "","waitForPageLoad","","3"," N",""
 "// ","getJSAndNetworkErrors","",""," N",""

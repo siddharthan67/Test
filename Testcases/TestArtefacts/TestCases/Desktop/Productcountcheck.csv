@@ -1,8 +1,0 @@
-"","open","chrome","https://www.logitechg.com/en-us","",""
-"url","getCurrentUrl","","","",""
-"val","parse_Locale","","{V_url}","",""
-"","printMessage","","{V_val}","",""
-"","var","x","""ASTRO Gaming Headsets""","",""
-"count","Pim_count","{x}","{V_val}","",""
-"","printMessage","","{V_count}","",""
-"","","","","",""

@@ -1,0 +1,11 @@
+<html>
+  <body>
+
+
+
+	Depreciated. Please see     <a shape="rect" href="http://ec2wwwfeeds01.idc.logitech.com/private/">http://ec2wwwfeeds01.idc.logitech.com/private/</a>
+  </body>
+  <head>
+    <meta http-equiv="Refresh" content="5; url=http://ec2wwwfeeds01.idc.logitech.com/private/"/>
+  </head>
+</html>
