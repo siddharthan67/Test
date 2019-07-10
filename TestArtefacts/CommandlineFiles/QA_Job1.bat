@@ -1,0 +1,2 @@
+
+java -jar  ..\..\MAGiX.jar -e  EnvironmentDetails.properties -u %cd%\..  -testcase GAMAUTM-101_Grid_MiniTile.csv[Desktop],GAMAUTM-103.MediaGrid_MediaTile.csv[Desktop],GAMAUTM-104_PlayerQuotes.csv[Desktop],GAMAUTM-105_FeaturedVideo.csv[Desktop],GAMAUTM-110.FeaturedPlayer_Des.csv[Desktop],GAMAUTM-111.TeamSelector_Des.csv[Desktop],GAMAUTM-87.CompareProducts_Des.csv[Desktop],GAMAUTM-91.ImageBanner_Des.csv[Desktop] -p
