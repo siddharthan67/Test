@@ -313,7 +313,7 @@
 									</goals>
 									<phase>install</phase>
 									<configuration>
-										<targetURL>http://52.52.164.63:4502/crx/packmgr/service.jsp</targetURL>
+										<targetURL>https://52.52.164.63:4502/crx/packmgr/service.jsp</targetURL>
 										<userId>admin</userId>
 										<password>${stage.password}</password>
 									</configuration>
@@ -326,7 +326,7 @@
 									</goals>
 									<phase>install</phase>
 									<configuration>
-										<targetURL>http://54.176.212.254:4503/crx/packmgr/service.jsp</targetURL>
+										<targetURL>https://54.176.212.254:4503/crx/packmgr/service.jsp</targetURL>
 										<userId>admin</userId>
 										<password>${stage.password}</password>
 									</configuration>
@@ -339,7 +339,7 @@
 									</goals>
 									<phase>install</phase>
 									<configuration>
-										<targetURL>http://54.215.129.29:4503/crx/packmgr/service.jsp</targetURL>
+										<targetURL>https://54.215.129.29:4503/crx/packmgr/service.jsp</targetURL>
 										<userId>admin</userId>
 										<password>${stage.password}</password>
 									</configuration>
