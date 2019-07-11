@@ -76,7 +76,7 @@
 "","var","m","1","N",""
 "","var","V_swatch","{V_swatch}+1","N",""
 "","WHILE","","{m}<{V_swatch}","N",""
-"","click","xpath=(//*[contains(@class,""product js-plp-product isotope-visible"")][{i}]//*[@class=""color-swatches""]/li)[{m}]","","N",""
+"//","click","xpath=(//*[contains(@class,""product js-plp-product isotope-visible"")][{i}]//*[@class=""color-swatches""]/li)[{m}]","","N",""
 "color","getAttribute","xpath=(//*[contains(@class,""product js-plp-product isotope-visible"")][{i}]//*[@class=""color-swatches""]/li)[{m}]/button","data-color-id","N",""
 "","printMessage","","Color {m} is {V_color}","",""
 "","var","m","{m}+1","N",""

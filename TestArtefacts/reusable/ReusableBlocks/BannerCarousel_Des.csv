@@ -1,5 +1,6 @@
 "","var","authoredPage","""en-us/gaming_carousel.html?wcmmode=disabled""","N",""
-"","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
+"","open","chrome","https://www.logitechg.com/en-in/innovation.html","",""
+"//","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
 "//","openMobileBrowserEmulator","iPad","https://www.logitechg.com/en-in","",""
 "","waitForPageLoad","","20","N",""
 "//","","get carousel attributes","","",""

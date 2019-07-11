@@ -1,6 +1,7 @@
 "","printMessage","",">>>>>>>>>>>>>>>>>>>>>>>>Launching the URL<<<<<<<<<<<<<<<<<<<<<<<<<<","",""
 " ","var","authoredPage","""en-us/test-simple-carousel.html""","N",""
-" ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
+"","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
+"// ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
 "","sleep","","3000","N",""
 "","pageRefresh","","","N",""
 "//","getJSAndNetworkErrors","","","N",""

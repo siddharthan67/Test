@@ -1,5 +1,6 @@
 " ","var","authoredPage","""en-us/products/farm-simulator-game-bundle2.html"""," N",""
-" ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}"," N",""
+"","openMobileBrowserEmulator","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
+"// ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}"," N",""
 "","pageRefresh","","","N ",""
 "","waitForPageLoad","","3","Y",""
 "//","getJSAndNetworkErrors","","","N",""

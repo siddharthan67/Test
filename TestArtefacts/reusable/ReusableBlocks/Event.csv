@@ -1,5 +1,6 @@
 " ","var","authoredPage","""en-us/home-event-4.html""","N",""
-" ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
+"","open","{V_browserDetails_BrowserType}","{V_browserDetails_URL}{authoredPage}","N",""
+"// ","open","{V_Data_BrowserType}","{V_Data_URL}{authoredPage}","N",""
 "","pageRefresh","","","N",""
 "","waitForPageLoad","","3","N",""
 "//","getJSAndNetworkErrors","","","N",""

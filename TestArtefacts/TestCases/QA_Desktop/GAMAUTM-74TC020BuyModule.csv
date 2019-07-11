@@ -1,0 +1,7 @@
+"response","rest_get","","http://ec2wwwfeeds01.idc.logitech.com/private/index.cfm?site=gaming&type=xml&full=true&format=aem&wip=0&country=US&pid=&from=&test=1","Y",""
+"","fetchProductDetailsBackend","TestDatainputCSV.inputCSV.US","{V_response_RESPONSE_FILE}","Y",""
+"","productBanner","TestDatainputCSV","","",""
+"","var","z","2","N",""
+"","var","p","2","N",""
+"browserDetails","executeTC_MultipleTestData","TestDatainputCSV.inputCSV","ReusableBlocks.BuyModule","N",""
+"","","","","",""

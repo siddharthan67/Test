@@ -1,0 +1,6 @@
+"","open","chrome","https://stackoverflow.com/questions","null",""
+"","sleep","","2000","null",""
+"","sk_scrollDown","","10","null",""
+"","sk_scrollUp","","5","null",""
+"//","sk_type","img=search.png","java","null",""
+"","sk_click","img=signin.png","","null",""
